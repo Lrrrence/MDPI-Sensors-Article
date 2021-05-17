@@ -1,0 +1,29 @@
+\begin{thebibliography}{999}
+
+\bibitem[Sahputra \em{et~al.}(2018)Sahputra, Alexiadis, and
+  Adams]{Sahputra2018}
+Sahputra, I.H.; Alexiadis, A.; Adams, M.J.
+\newblock {Temperature and configurational effects on the Young's modulus of
+  poly (methyl methacrylate)}.
+\newblock {\em Mol. Simul.} {\bf 2018}, {\em 44},~774--780.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1080/08927022.2018.1450983}{\detokenize{10.1080/08927022.2018.1450983}}}.
+
+\bibitem[Hopkins \em{et~al.}(2012)Hopkins, Baltis, Pitaress, and
+  Hazelmyer]{Hopkins2012}
+Hopkins, D.C.; Baltis, T.; Pitaress, J.M.; Hazelmyer, D.R.
+\newblock {Extreme thermal transient stress analysis with pre-stress in a metal
+  matrix composite power package}.
+\newblock {\em Proc. - IMAPS Int. Conf. Exhib. High Temp. Electron. HiTEC 2012}
+  {\bf 2012}, pp. 361--372.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.4071/HITEC-2012-THA25}{\detokenize{10.4071/HITEC-2012-THA25}}}.
+
+\bibitem[Alleyne and Cawley(1992)]{Alleyne1992}
+Alleyne, D.N.; Cawley, P.
+\newblock {Optimization of lamb wave inspection techniques}.
+\newblock {\em NDT E Int.} {\bf 1992}, {\em 25},~11--22.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0963-8695(92)90003-Y}{\detokenize{10.1016/0963-8695(92)90003-Y}}}.
+
+\end{thebibliography}
