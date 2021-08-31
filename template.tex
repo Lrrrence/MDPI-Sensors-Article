@@ -137,25 +137,30 @@ $^{4}$ \quad University of Southampton, Southampton, UK, SO17 1BJ; M.Hill@soton.
 \section{Introduction}
 
 \textcolor{blue}{MOTIVATION PARAGRAPH TO SAY WHY HIGH TEMPERATURE SENSING IS IMPORTANT, THINGS LIKE HEALTH MONITORING, ACTIVE CONTROL, DESIGN AND CERTIFICATION OF COMPONENT PROCESS AND VERIFICATION OF THE SYSTEM AT HIGH TEMPERATURE ENVIRONMENT}
-Condition monitoring is vital in maintaining the health of many different forms of machines and components. The advent of small, robust sensors has allowed more and more monitoring to take place, but there is still scope to extend monitoring to harsher environments. Finite element modelling is an extremely useful tool in the design and testing stages of sensor development, especially when the testing of the sensors requires environments that are difficult to simulate in a laboratory.
+Condition monitoring is vital in maintaining the health of many different forms of machines and components. The advent of small, robust sensors has allowed considerable monitoring to take place, but there is still scope to extend monitoring to harsher environments. The monitoring of components at high temperatures is of particular importance as operating components closer to their thermal limits can increase efficiency, which can reduce operational costs. Exposure to high temperatures increases the risk of failure, which makes health monitoring of these components vitally important. Additional high temperature sensors can feed into active control systems to ensure optimal operation of complex systems. During the component design stage finite element models are often used to predict thermal stresses, but are difficult to verify experimentally. The development of new high temperature sensors can inform design decisions and improve the accuracy of models, which will lead to increased efficiency in the finalised component.
 
 \subsection{Short review on NGV temperature monitoring}
 
 \textcolor{blue}{Please briefly talk about methods you covered in your papers, and cite your paper here.}
 
+Nozzle guide vanes are static components located in the turbine section of jet engines that are operated at extremely high temperatures. The monitoring of these components is challenging because of their location, and the extreme temperatures and gas pressures that they are exposed to. There are a number of well established offline monitoring methods (thermal paints and thermal history sensors) that record the peak temperature of exposure during an operational cycle of a turbine, but considerably less well established methods for online monitoring during normal operation (thin film thermocouples (TFTCs), thermographic phosphors, and pyrometers). The offline methods are used in the design stage to verify analytical models, locating areas of the component with high temperature gradients, and ensuring that the component does not exceed temperature limits. Online methods can provide considerably more data during start-up and shut-down of the engine, as well as recording any overshoot events. Online methods can be used for health monitoring and data can be fed into active control systems. A comprehensive review of both offline and online monitoring methods is provided by Yule \textit{et al.}~\cite{Yule2021}.
+
 \textcolor{blue}{\subsection{Review of methods used to model harsh environment sensing}
 Please add: Existing experiments and talk about the challenges in testing at high temperature and the accuracy of analytical methods at elevated temp}
+
+Numerical simulations are used to find the cooling effectiveness of turbine blades and NGVs. Results of the simulations are validated against experimental results, such as those from temperature-sensitive paints~\cite{18-guan2019enhanced}. Finite element modelling (FEM) can be used to predict the thermal load on a blade and analyse the effectiveness of blade cooling methods. There are two methods of calculations, uncoupled or coupled. Uncoupled methods are less computational intensive as the heat transfer coefficients used in the calculations are only computed at key engine operating conditions. Coupled methods use computational fluid dynamic (CFD) calculations to iterate the heat transfer coefficients, which improves accuracy over uncoupled methods. Findeisen \textit{et al.}~\cite{Findeisen2017} compared two coupled methods, FEM1D and FEM2D. The FEM1D method uses simplified models of the cooling system making it suitable for initial designs, while the FEM2D method uses three dimensional CFD simulations that are more realistic but nearly a hundred times slower than FEM1D. This makes FEM2D models more suitable for comparison with experimental data. In order to validate complex thermal models over 80\% of the surface should be measured, which is not possible with point measurement systems such as thermocouples~\cite{Peral2019}. Thermal maps allow manufacturers to better understand the effects of air flow on specific areas of components, which can help to improve the life cycle of a part. Areas of increased thermal stress can be identified, which may require additional cooling or design adjustment, while also highlighting less critical areas that could be reduced in weight or cooling. 
+
+Models are often used to predict heat transfer coefficients, which are strongly linked to the aerodynamic performance of the component. A small error in prediction of aerodynamic performance leads to a large error in the prediction of heat transfer coefficient~\cite{Nikparto2018}. The accuracy of heat transfer models is dependant on the turbulence model, the approach to three-dimensional modelling, and the density of geometric grid. An example of comparison between experimental measurements and the modelling of turbine blade heat transfer shows that there can be discrepancies of up to 40\si{\degreeCelsius} on the surface of a blade when the upstream gas temperature is 614\si{\degreeCelsius}~\cite{Shevchenko2018}. Guan \textit{et al.}~\cite{Guan2019} compared the results of a coupled model to experimental measurements from temperature sensitive paints, which provided comparable results when film cooling was taken into account. 
+
+A comprehensive review of conjugate heat transfer models has been carried out by Samarasinghe~\cite{Samarasinghe2019}.
 
 \textcolor{blue}{\subsection{review of other studies done in COMSOL for harsh environment sensing}
 Items to add: Piezoelectric models, temperature variation models, guided wave models. If they compare their work with experiments, then talk about that too if not explain that in this work you at least validated part of your model with experiments.}
 
-
 This article will focus on the development of a guided wave based temperature monitoring system for use on jet engine nozzle guide vanes. The vanes are exposed to extremely high temperature and gas pressures, which makes testing of sensors difficult. A COMSOL model has been developed to simulate guided wave propagation in an NGV-like plate, where the environment can easily be adjusted to evaluate the impact on wave propagation and sensor operation. A guide to setting up and running the model is provided, along with validation of the model against theoretical Lamb wave temperature sensitivities. 
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Materials and Methods}
+\section{COMSOL simulation methods}
 
 The multiphysics simulation package COMSOL has been used to simulate a potential temperature monitoring system, investigating the effect of temperature on Lamb wave propagation.
 
@@ -189,7 +194,7 @@ The change in Young's Modulus with temperature is included in the material prope
 %
 \begin{equation}
     \label{eqn:E PMMA}
-    E\left( T \right) = \-15250.0000000002\times T^2 + 1125000.00000015\times T + 5432499999.99998\    
+    E\left( T \right) = \ -15250.0000000002\times T^2 + 1125000.00000015\times T + 5432499999.99998\    
 \end{equation}
 %
 \begin{equation}
@@ -208,13 +213,13 @@ The mesh size for each material is determined by excitation frequency. The excit
 This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation that has it's initial conditions set by the stationary study. The settings for the initial study are adjusted to not solve for electrostatics/the piezoelectric effect. The time dependant study has it's ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL number is suggested by COMSOL to be less than 0.2, optimally 0.1. Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: CFL/(N$\times f_0$). 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Results}
+\section{COMSOL simulation results}
 
-Exaggerated deformation of pressure in the plate as seen in Figure \ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
+Exaggerated deformation of pressure in the plate as seen in Figure~\ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
 
-To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using a cross-correlation method, to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure \ref{fig:COMSOLsimsignal}. 
+To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using an envelope peak extraction method, to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure~\ref{fig:COMSOLsimsignal}. 
 
-Calculated total Time of flight (through both the wedges and the plate) is longer than experimental measurements of the same setup. This causes calculated wave velocity to be lower than expected ($\sim$ -120 m s$^-1$). Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which eliminates the wedges as a source of error. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves. Frequency analysis of the transmitted wave shows that it is still centred at 1 MHz. 
+Calculated total Time of Flight (through both the wedges and the plate) is marginally longer than experimentally measured Time of Flight, which can be attributed to a number of factors. Differences in material properties, their change with temperature, variance in geometry, wedge angle, wedge spacing, and sample rate, all have an impact on Time of Flight. Wedge foot offset (the distance a wave travel under each wedge foot) is calculated in the same way for both the simulation and the experiments, however the value differs, which indicates a difference in geometry between them. Despite this difference the difference in calculated velocities is small, as using accurate estimations of wedge foot offset corrects for the difference in total Time of Flight. Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which suggests that the geometry and material properties of the wedges are realistic. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves. Frequency analysis of the transmitted wave shows that it is still centred at 1 MHz. 
 
 \begin{figure}[h]
     \centering
@@ -230,19 +235,103 @@ Calculated total Time of flight (through both the wedges and the plate) is longe
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/simpulse20cedit.eps}
+    \includegraphics[width=0.7\textwidth]{./figures/simpulse20csensors.eps}
     \caption{COMSOL simulation of $S_0$ mode propagation at room temperature.}\label{fig:COMSOLsimsignal}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experimental set up and experimental results}
 
-\textcolor{blue}{PLEASE ADD EXPLANATION ABOUT YOUR EXPERIMENTS AND COMPARE THE WORK WITH YOUR EXPERIMENTS.}
+Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable angle wedge) in a pitch-catch configuration have been coupled to a 1~mm thick aluminium plate with a liquid couplant (Figure~\ref{fig:testsetup}). A signal generator (GW Instek MFG-2203M) has been used to generate a 5-cycle Hamming windowed tone burst at 1~MHz. Signals are digitised using a Picoscope 3406DMSO USB Oscilloscope. Based on a sampling rate of 5$\times$10$^8$ the theoretical maximum temporal resolution is 2~ns. Signal processing is carried out in MATLAB. A zero-phase bandpass filter is applied to the signals to remove unwanted noise. Time of flight ($t_F$) is measured between transducers and wave velocity is calculated from the distance between transducers. The temperature of the aluminium plate is controlled using a hot plate.
+
+\begin{table}[b]
+    \centering
+    \begin{tabulary}{\textwidth}{L}
+        \hline
+        \textbf{Measurement Hardware}     \\
+        \hline
+        2x Olympus ABWX-2001 Variable angle wedges \\
+        2x Olympus A539S-SM 1 MHz transducers \\
+        Olympus ultrasonic couplant B \\
+        GW Instek MFG-2203M Signal generator \\
+        Picoscope 3406DMSO USB Oscilloscope \\
+        Thermadata T-type temperature loggers \\
+        VWR Hot plate \\
+        \hline
+    \end{tabulary} 
+    \caption{Experimental measurement hardware.}\label{table:hardware}
+\end{table}
+
+Wave velocity is calculated using Equation~\ref{velocitycalc}/\ref{velocitycalcfull}. The propagation time through the wedges (measured using the configuration shown in Figure~\ref{fig:testdiagramw2w}) has been subtracted from the total $t_F$ to ensure that only the propagation time through the plate is measured.  
+%
+\begin{equation} \label{velocitycalc}
+v = \frac{d}{t_F}
+\end{equation} 
+%
+\begin{equation} \label{velocitycalcfull}
+v = \left( \frac{d\;\text{between wedges} + d\;\text{wedge foot offset}}{\text{Total}\;t_F - \text{Wedge-to-wedge}\;t_F} \right)
+\end{equation} 
+%
+\\
+Where the $d$ wedge foot offset is an unknown distance from the front edge of the wedge to where the wave enters the plate from the wedge. This distance has been calculated by measuring wave velocity at room temperature for the mode of interest at multiple wedge spacings (0.08 m to 0.14 m in 0.01 m increments) and looping through a range of plausible offset distances until the standard deviation across the range of wedge spacings is at a minimum. This ensures that the variation in measurement results is due to measurement error (e.g. small variances in setting the distance between wedges) rather than an incorrect estimation of wedge foot offset. This value varies with wedge angle and is recalculated for each wave mode measured.
+
+The wedges allow for careful selection of excitation angle so that modes of interest can be targeted. The angle is determined based on Snell’s law:
+%
+\begin{equation} 
+\text{Angle}\ \theta = \text{Sin}^{- 1} \left( \frac{\text{Longitudinal\ wedge\ velocity}}{\text{Lamb\ wave\ phase\ velocity}} \right)
+\end{equation} 
+%
+Measurement of wave velocity depends on measurement of time of flight ($t_F$), which can be described by the Equation~\cite{Croxford2007a}:
+%
+\begin{equation}\label{tofcalc}
+t_F = \frac{d}{c}
+\end{equation} 
+%
+Where $d$ is the distance travelled at wave speed $c$, both of which are functions of temperature, $T$. The sensitivity of the time of flight to temperature can then be expressed as:
+%
+\begin{equation} 
+\delta t_{F} = \frac{d}{c}\left( \alpha - \frac{k}{c} \right) \delta \text{T}
+\end{equation} 
+%
+Where $\alpha$ is the coefficient of thermal expansion of the medium and $k$ is the rate of change of wave velocity with temperature:
+%
+\begin{equation} {\label{eqn: eq k}}
+k = \frac{\delta \text{c}}{\delta \text{T}}
+\end{equation} 
+%
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\textwidth]{./figures/testdiagramsimple.eps}
+    \caption{Cross-sectional diagram of total time-of-flight measurement setup.}\label{fig:testdiagramtotal}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\textwidth]{./figures/w2wdiagram.eps}
+    \caption{Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.}\label{fig:testdiagramw2w}
+\end{figure}
+
+A hot plate is used to raise the temperature of the aluminium plate to the desired temperature. The temperature of the aluminium plate is monitored using a thermocouple placed in the centre of the plate at the hottest point. The total $t_F$ is measured until it stabilises using the test setup shown in Figure~\ref{fig:testdiagramtotal}. The temperature of the entire system must be allowed to stabilise before taking the measurement to ensure that the temperature of the wedge is the same as the plate. Total $t_F$ is now measured for the set temperature. Multiple measurements are taken after adjusting both wedge positions. The wedges are removed from the surface and placed together to measure the wedge-to-wedge $t_F$ as shown in Figure~\ref{fig:testdiagramw2w}. Multiple measurements are taken after adjusting wedge-to-wedge position. The $t_F$ measurement process is repeated after allowing the total $t_F$ to re-stabilise. Velocity is calculated using Equation~\ref{velocitycalcfull}. A mean average is calculated from the results of the repeated total $t_F$ measurements, and velocity is calculated for every wedge-to-wedge result. An average velocity is calculated along with standard deviation. 
+
+The temperature gradient across the plate has been measured by placing four equally spaced thermocouples along the transmission path, from the centre of the plate to the furthest edge of a wedge transducer in 3 cm increments. The wedges are removed from the plate to place the thermocouples, and the temperature of the hot plate is raised to match the temperature recorded by the thermocouple placed in the centre of the plate during measurement of total $t_F$. Measurements are repeated after moving the thermocouples to the other half of the transmission path. A mean average temperature has been calculated for the total transmission path at each hot plate temperature setting. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{./figures/hjkhh7UmEx.png}
+    \caption{Photograph of test setup.}\label{fig:testsetup}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
 
-This section is not mandatory, but can be added to the manuscript if the discussion is unusually long or complex.
+Figure~\ref{fig:s0result} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing theoretical temperature sensitivity extracted from dispersion curves, experimental measurement data, and COMSOL simulations of the experimental setup. The results from the COMSOL model are in good agreement with those taken experimentally, which also match up well to the theoretical temperature sensitivity of Aluminium extracted from dispersion curves. This shows the validity of the COMSOL model, which can now be adapted for further research. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\textwidth]{./figures/s0andcomsolresult.eps}
+    \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between theoretical, experimental, and simulated results.}\label{fig:s0result}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{6pt} 

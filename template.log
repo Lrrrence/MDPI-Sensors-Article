@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.23)  17 MAY 2021 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  31 AUG 2021 14:40
 entering extended mode
-**c:/Users/yulel/Documents/LaTeX/MDPI-Article-Template/template.tex
-(c:/Users/yulel/Documents/LaTeX/MDPI-Article-Template/template.tex
+**c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex
+(c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (c:/Users\yulel\Documents\LaTeX\MDPI-Article-Template\Definitions/mdpi.cls
+L3 programming layer <2021-05-07> (Definitions/mdpi.cls
 Document Class: Definitions/mdpi 02/18/2021 MDPI paper class
 (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -560,7 +560,7 @@ Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip89
 \RaggedRightParindent=\skip90
 \JustifyingParindent=\skip91
-) (c:/Users\yulel\Documents\LaTeX\MDPI-Article-Template\Definitions/journalnames.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+) (Definitions/journalnames.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks52
 \thm@bodyfont=\toks53
@@ -642,10 +642,10 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen302
-
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+
+(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count339
@@ -907,15 +907,15 @@ Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \tymax=\dimen324
 \TY@tablewidth=\dimen325
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+Package: expl3 2021-05-07 L3 programming layer (loader) 
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count358
 \l__pdf_internal_box=\box74
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-2020-10-01.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex)))
-Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+Package: siunitx 2021-04-17 v2.8e A comprehensive (SI) units package
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box75
 \l__siunitx_tmp_dim=\dimen326
@@ -963,7 +963,7 @@ Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 134.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (c:/Users\yulel\Documents\LaTeX\MDPI-Article-Template\template.aux)
+) (template.aux)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
@@ -1073,7 +1073,7 @@ Package newfloat Info: `float' package detected.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2021-04-17 v2.8e siunitx: Abbreviated units
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
@@ -1236,50 +1236,131 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<./figures/comsoldiagram.png, id=26, 1556.9367pt x 496.9767pt>
+
+
+Package natbib Warning: Citation `Nikparto2018' on page 2 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Shevchenko2018' on page 2 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Samarasinghe2019' on page 2 undefined on input line 155.
+
+<./figures/comsoldiagram.png, id=31, 1556.9367pt x 496.9767pt>
 File: ./figures/comsoldiagram.png Graphic file (type png)
 <use ./figures/comsoldiagram.png>
-Package pdftex.def Info: ./figures/comsoldiagram.png  used on input line 207.
+Package pdftex.def Info: ./figures/comsoldiagram.png  used on input line 226.
 (pdftex.def)             Requested size: 367.66473pt x 117.35828pt.
-<./figures/simmodes.png, id=28, 1160.83687pt x 324.46219pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/simmodes.png, id=33, 1160.83687pt x 324.46219pt>
 File: ./figures/simmodes.png Graphic file (type png)
 <use ./figures/simmodes.png>
-Package pdftex.def Info: ./figures/simmodes.png  used on input line 213.
+Package pdftex.def Info: ./figures/simmodes.png  used on input line 232.
 (pdftex.def)             Requested size: 367.66473pt x 102.76556pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 214.
+(Font)              scaled to size 9.37807pt on input line 233.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 214.
+(Font)              scaled to size 7.29405pt on input line 233.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 214.
+(Font)              scaled to size 9.37807pt on input line 233.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 214.
-Package epstopdf Info: Source file: <./figures/simpulse20cedit.eps>
-(epstopdf)                    date: 2021-05-06 10:39:47
-(epstopdf)                    size: 2887290 bytes
-(epstopdf)             Output file: <./figures/simpulse20cedit-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-05-17 11:19:00
-(epstopdf)                    size: 191041 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/simpulse20cedit-eps-converted-to.pdf ./figures/simpulse20cedit.eps>
-(epstopdf)             \includegraphics on input line 219.
+(Font)              scaled to size 7.29405pt on input line 233.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <./figures/simpulse20csensors.eps>
+(epstopdf)                    date: 2021-08-30 13:21:22
+(epstopdf)                    size: 2651494 bytes
+(epstopdf)             Output file: <./figures/simpulse20csensors-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-30 13:22:30
+(epstopdf)                    size: 182953 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/simpulse20csensors-eps-converted-to.pdf ./figures/simpulse20csensors.eps>
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./figures/simpulse20cedit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/simpulse20cedit-eps-converted-to.pdf, id=29, 1135.24126pt x 697.60625pt>
-File: ./figures/simpulse20cedit-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/simpulse20cedit-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/simpulse20cedit-eps-converted-to.pdf  used on input line 219.
-(pdftex.def)             Requested size: 367.66473pt x 225.93164pt.
+pdfTeX warning: pdflatex (file ./figures/simpulse20csensors-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/simpulse20csensors-eps-converted-to.pdf, id=34, 1073.00874pt x 682.55pt>
+File: ./figures/simpulse20csensors-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/simpulse20csensors-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/simpulse20csensors-eps-converted-to.pdf  used on input line 238.
+(pdftex.def)             Requested size: 367.66473pt x 233.86569pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <./figures/testdiagramsimple.eps>
+(epstopdf)                    date: 2021-07-15 15:32:04
+(epstopdf)                    size: 2501446 bytes
+(epstopdf)             Output file: <./figures/testdiagramsimple-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-30 13:52:07
+(epstopdf)                    size: 29627 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/testdiagramsimple-eps-converted-to.pdf ./figures/testdiagramsimple.eps>
+(epstopdf)             \includegraphics on input line 305.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/testdiagramsimple-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/testdiagramsimple-eps-converted-to.pdf, id=40, 1602.98875pt x 523.9575pt>
+File: ./figures/testdiagramsimple-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/testdiagramsimple-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/testdiagramsimple-eps-converted-to.pdf  used on input line 305.
+(pdftex.def)             Requested size: 367.66473pt x 120.17189pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <./figures/w2wdiagram.eps>
+(epstopdf)                    date: 2021-07-15 15:57:15
+(epstopdf)                    size: 1781626 bytes
+(epstopdf)             Output file: <./figures/w2wdiagram-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-30 13:52:08
+(epstopdf)                    size: 28946 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/w2wdiagram-eps-converted-to.pdf ./figures/w2wdiagram.eps>
+(epstopdf)             \includegraphics on input line 311.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/w2wdiagram-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/w2wdiagram-eps-converted-to.pdf, id=41, 1185.42876pt x 412.54124pt>
+File: ./figures/w2wdiagram-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/w2wdiagram-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/w2wdiagram-eps-converted-to.pdf  used on input line 311.
+(pdftex.def)             Requested size: 315.14578pt x 109.67542pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/hjkhh7UmEx.png, id=45, 1201.48875pt x 716.6775pt>
+File: ./figures/hjkhh7UmEx.png Graphic file (type png)
+<use ./figures/hjkhh7UmEx.png>
+Package pdftex.def Info: ./figures/hjkhh7UmEx.png  used on input line 321.
+(pdftex.def)             Requested size: 367.66473pt x 219.3026pt.
+Package epstopdf Info: Source file: <./figures/s0andcomsolresult.eps>
+(epstopdf)                    date: 2021-08-31 14:28:06
+(epstopdf)                    size: 544606 bytes
+(epstopdf)             Output file: <./figures/s0andcomsolresult-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-31 14:33:37
+(epstopdf)                    size: 26866 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/s0andcomsolresult-eps-converted-to.pdf ./figures/s0andcomsolresult.eps>
+(epstopdf)             \includegraphics on input line 332.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/s0andcomsolresult-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/s0andcomsolresult-eps-converted-to.pdf, id=47, 378.41376pt x 290.08376pt>
+File: ./figures/s0andcomsolresult-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/s0andcomsolresult-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/s0andcomsolresult-eps-converted-to.pdf  used on input line 332.
+(pdftex.def)             Requested size: 367.66473pt x 281.84566pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 
  []
 
-Package hyperref Info: bookmark level for unknown specialtable defaults to 0 on input line 291.
+Package hyperref Info: bookmark level for unknown specialtable defaults to 0 on input line 394.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 23.60004pt, for example:
@@ -1289,7 +1370,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-{C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <c:/Users/yulel/Documents/LaTeX/MDPI-Article-Template/Definitions/logo-mdpi-eps-converted-to.pdf> <c:/Users/yulel/Documents/LaTeX/MDPI-Article-Template/Definitions/logo-orcid-eps-converted-to.pdf>]
+{C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Definitions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.18796pt, for example:
@@ -1305,7 +1386,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
 
-[3 <./figures/comsoldiagram.png
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
+
+[5 <./figures/comsoldiagram.png
 
 pdfTeX warning: pdflatex (file ./figures/comsoldiagram.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 > <./figures/simmodes.png>]
@@ -1316,7 +1413,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
 
-[4 <./figures/simpulse20cedit-eps-converted-to.pdf>] (c:/Users\yulel\Documents\LaTeX\MDPI-Article-Template\template.bbl) 
+[6 <./figures/simpulse20csensors-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
+
+[7 <./figures/testdiagramsimple-eps-converted-to.pdf> <./figures/w2wdiagram-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
+
+[8 <./figures/hjkhh7UmEx.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.18796pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.18796pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
+
+[9 <./figures/s0andcomsolresult-eps-converted-to.pdf>] (template.bbl) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1325,19 +1446,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.18796pt}.
 
-[5] (c:/Users\yulel\Documents\LaTeX\MDPI-Article-Template\template.aux) ) 
+[10]
+
+Package natbib Warning: There were undefined citations.
+
+(template.aux) ) 
 Here is how much of TeX's memory you used:
- 31451 strings out of 479324
- 580582 string characters out of 2856815
- 954628 words of memory out of 3000000
- 47899 multiletter control sequences out of 15000+600000
- 475786 words of font info for 372 fonts, out of 8000000 for 9000
+ 31769 strings out of 479173
+ 586980 string characters out of 2854167
+ 999828 words of memory out of 3000000
+ 48277 multiletter control sequences out of 15000+600000
+ 480421 words of font info for 413 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,13n,130p,1101b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk>{C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on c:/Users\yulel\Documents\LaTeX\MDPI-Article-Template\template.pdf (5 pages, 1770732 bytes).
+ 123i,13n,124p,1801b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk>{C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on template.pdf (10 pages, 4916860 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 122990 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 123034 words of extra memory for PDF output out of 128383 (max. 10000000)
 

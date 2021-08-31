@@ -1,5 +1,47 @@
 \begin{thebibliography}{999}
 
+\bibitem[Yule \em{et~al.}(2021)Yule, Zaghari, Harris, and Hill]{Yule2021}
+Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
+\newblock {Surface temperature condition monitoring methods for aerospace
+  turbomachinery: exploring the use of ultrasonic guided waves}.
+\newblock {\em Meas. Sci. Technol.} {\bf 2021}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1361-6501/abda96}{\detokenize{10.1088/1361-6501/abda96}}}.
+
+\bibitem[Guan \em{et~al.}(2019)Guan, Ai, and Fei]{18-guan2019enhanced}
+Guan, P.; Ai, Y.; Fei, C.
+\newblock An Enhanced Flow-Thermo-Structural Modeling and Validation for the
+  Integrated Analysis of a Film Cooling Nozzle Guide Vane.
+\newblock {\em Energies} {\bf 2019}, {\em 12},~2775.
+
+\bibitem[Findeisen \em{et~al.}(2017)Findeisen, Woerz, Wieler, Jeschke, and
+  Rabs]{Findeisen2017}
+Findeisen, E.; Woerz, B.; Wieler, M.; Jeschke, P.; Rabs, M.
+\newblock {Evaluation of numerical methods to predict temperature distributions
+  of an experimentally investigated convection-cooled gas-Turbine blade}.
+\newblock {\em Proc. ASME Turbo Expo} {\bf 2017}, {\em 5B-2017},~1--13.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1115/GT2017-64205}{\detokenize{10.1115/GT2017-64205}}}.
+
+\bibitem[Peral \em{et~al.}(2019)Peral, Araguas-Rodriguez, Karagiannopoulos,
+  Ya{\~{n}}ez-Gonzalez, Feist, Castillo, Pilgrim, and Skinner]{Peral2019}
+Peral, D.; Araguas-Rodriguez, S.; Karagiannopoulos, S.; Ya{\~{n}}ez-Gonzalez,
+  A.; Feist, J.P.; Castillo, D.; Pilgrim, C.; Skinner, S.
+\newblock {Reliable temperature measurement with thermal history paints: An
+  uncertainty estimation model}.
+\newblock  Proc. ASME Turbo Expo. American Society of Mechanical Engineers
+  (ASME),  2019, Vol.~6, p.~10.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1115/GT2019-92087}{\detokenize{10.1115/GT2019-92087}}}.
+
+\bibitem[Guan \em{et~al.}(2019)Guan, Ai, Fei, and Yao]{Guan2019}
+Guan, P.; Ai, Y.; Fei, C.; Yao, Y.
+\newblock {Thermal fatigue life prediction of thermal barrier coat on nozzle
+  guide vane via master-slave model}.
+\newblock {\em Appl. Sci.} {\bf 2019}, {\em 9},~1--21.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/app9204357}{\detokenize{10.3390/app9204357}}}.
+
 \bibitem[Sahputra \em{et~al.}(2018)Sahputra, Alexiadis, and
   Adams]{Sahputra2018}
 Sahputra, I.H.; Alexiadis, A.; Adams, M.J.
@@ -18,6 +60,15 @@ Hopkins, D.C.; Baltis, T.; Pitaress, J.M.; Hazelmyer, D.R.
   {\bf 2012}, pp. 361--372.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.4071/HITEC-2012-THA25}{\detokenize{10.4071/HITEC-2012-THA25}}}.
+
+\bibitem[Croxford \em{et~al.}(2007)Croxford, Wilcox, Drinkwater, and
+  Konstantinidis]{Croxford2007a}
+Croxford, A.J.; Wilcox, P.D.; Drinkwater, B.W.; Konstantinidis, G.
+\newblock {Strategies for guided-wave structural health monitoring}.
+\newblock {\em Proc. R. Soc. A Math. Phys. Eng. Sci.} {\bf 2007}, {\em
+  463},~2961--2981.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rspa.2007.0048}{\detokenize{10.1098/rspa.2007.0048}}}.
 
 \bibitem[Alleyne and Cawley(1992)]{Alleyne1992}
 Alleyne, D.N.; Cawley, P.
