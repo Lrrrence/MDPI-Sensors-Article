@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex template"] 1630416822 "template.aux" "template.bbl" "template" 1630417211
+["bibtex template"] 1630515786 "template.aux" "template.bbl" "template" 1630515795
   "./Definitions/mdpi.bst" 1621240528 24712 a650b7df4676b7f3637f3b55c8c8f579 ""
   "References.bib" 1620293987 15527 dc7f34671dd3872b78731ae0f242d104 ""
-  "library.bib" 1620293987 672694 c78a952dfb2977dd69b10ea44ef73945 ""
-  "template.aux" 1630417210 11460 a87d9513b15b8fc1013b1af4fb4ea01c "pdflatex"
+  "library.bib" 1630515757 714795 72a8842547239a0bf7b1266c7c47b766 ""
+  "template.aux" 1630515795 11949 bd85e62a27f90266cd23be27f637873e "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1630417202 "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" "template.pdf" "template" 1630417211
+["pdflatex"] 1630515787 "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" "template.pdf" "template" 1630515795
   "C:/Users/yulel/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0500.pk" 1621240993 10824 d374e2217e9012802245cfe8136aef71 ""
   "C:/Users/yulel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1621336728 9557845 57d6f8cdfd3d199561ef9bfe326d311c ""
   "C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1626782944 347615 6e7690f96d8b2000c175ae6088dcf7a5 ""
@@ -270,18 +270,19 @@
   "Definitions/logo-mdpi.eps" 1621240528 736786 4711706bb26e06261526b11ff3bf4ccd ""
   "Definitions/logo-orcid.eps" 1621240528 284378 cd5384c0167d8a0d19b8252fe645ba2a ""
   "Definitions/mdpi.cls" 1621240528 47023 f036febf82b948a88eac664e33145e4c ""
-  "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" 1630417200 40254 c20873de8b64cb5601ab18b187808b05 ""
+  "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" 1630515776 42902 ae1fb748f54a516905d5d6a3b95e844b ""
   "figures/comsoldiagram.png" 1620646873 950661 5bd6b43bd9845b07e9101fd267609f8c ""
+  "figures/comsoltemp100c.png" 1630508740 76042 2e5363ba948e4fb6297b6c2df712344b ""
   "figures/hjkhh7UmEx.png" 1620293987 3098686 f251ba862daa8b5e86fa2faef1039a44 ""
   "figures/s0andcomsolresult.eps" 1630416486 544606 c66d241807353aba83badf16dfc2531c ""
   "figures/simmodes.png" 1620300535 74665 60a96ff161cc816a99a77e396fcb3a50 ""
-  "figures/simpulse20csensors.eps" 1630326082 2651494 eb9432c6b5338ddcfc745b330466c67a ""
+  "figures/simpulse20csensors.eps" 1630509215 2735594 01fe7dc3fc3b6fc2a1fe31d32274cd37 ""
   "figures/testdiagramsimple.eps" 1626359524 2501446 869afdf695f226e9bb646e57e61821b3 ""
   "figures/w2wdiagram.eps" 1626361035 1781626 1730bd2b17a464ff5a5a06766d9eabb2 ""
-  "template.aux" 1630417210 11460 a87d9513b15b8fc1013b1af4fb4ea01c "pdflatex"
-  "template.bbl" 1630416822 4086 0d940f3b1a97f12ffc3add517ac4620f "bibtex template"
-  "template.tex" 1630417200 40254 c20873de8b64cb5601ab18b187808b05 ""
+  "template.aux" 1630515795 11949 bd85e62a27f90266cd23be27f637873e "pdflatex"
+  "template.bbl" 1630515786 6075 550e112cd0952b9f8b44153842156362 "bibtex template"
+  "template.tex" 1630515776 42902 ae1fb748f54a516905d5d6a3b95e844b ""
   (generated)
+  "template.pdf"
   "template.log"
   "template.aux"
-  "template.pdf"

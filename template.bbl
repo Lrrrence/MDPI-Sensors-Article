@@ -34,6 +34,25 @@ Peral, D.; Araguas-Rodriguez, S.; Karagiannopoulos, S.; Ya{\~{n}}ez-Gonzalez,
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1115/GT2019-92087}{\detokenize{10.1115/GT2019-92087}}}.
 
+\bibitem[Nikparto and Schobeiri(2018)]{Nikparto2018}
+Nikparto, A.; Schobeiri, M.T.
+\newblock {Combined numerical and experimental investigations of heat transfer
+  of a highly loaded low-pressure turbine blade under periodic inlet flow
+  condition}.
+\newblock {\em Proc. Inst. Mech. Eng. Part A J. Power Energy} {\bf 2018}, {\em
+  232},~769--784.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/0957650918758158}{\detokenize{10.1177/0957650918758158}}}.
+
+\bibitem[Shevchenko \em{et~al.}(2018)Shevchenko, Rogalev, Rogalev, Vegera, and
+  Bychkov]{Shevchenko2018}
+Shevchenko, I.; Rogalev, N.; Rogalev, A.; Vegera, A.; Bychkov, N.
+\newblock {Verification of Thermal Models of Internally Cooled Gas Turbine
+  Blades}.
+\newblock {\em Int. J. Rotating Mach.} {\bf 2018}, {\em 2018}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1155/2018/6780137}{\detokenize{10.1155/2018/6780137}}}.
+
 \bibitem[Guan \em{et~al.}(2019)Guan, Ai, Fei, and Yao]{Guan2019}
 Guan, P.; Ai, Y.; Fei, C.; Yao, Y.
 \newblock {Thermal fatigue life prediction of thermal barrier coat on nozzle
@@ -41,6 +60,26 @@ Guan, P.; Ai, Y.; Fei, C.; Yao, Y.
 \newblock {\em Appl. Sci.} {\bf 2019}, {\em 9},~1--21.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/app9204357}{\detokenize{10.3390/app9204357}}}.
+
+\bibitem[Samarasinghe \em{et~al.}(2019)Samarasinghe, Abeykoon, and
+  Turan]{Samarasinghe2019}
+Samarasinghe, T.; Abeykoon, C.; Turan, A.
+\newblock {Modelling of heat transfer and fluid flow in the hot section of gas
+  turbines used in power generation: A comprehensive survey}.
+\newblock {\em Int. J. Energy Res.} {\bf 2019}, {\em 43},~1647--1669.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/er.4296}{\detokenize{10.1002/er.4296}}}.
+
+\bibitem[Nikolaevtsev \em{et~al.}(2016)Nikolaevtsev, Suchkov, Selifonov,
+  Suchkov, Yankin, and Suchkova]{Nikolaevtsev2016a}
+Nikolaevtsev, V.A.; Suchkov, S.G.; Selifonov, A.V.; Suchkov, D.D.; Yankin,
+  S.S.; Suchkova, S.M.
+\newblock {Efficiency of Lamb wave excitation by wedge-shaped ultrasonic
+  transducer}.
+\newblock {\em 2016 13th Int. Sci. Conf. Actual Probl. Electron. Instrum. Eng.
+  APEIE 2016 - Proc.} {\bf 2016}, {\em 1},~42--47.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/APEIE.2016.7802286}{\detokenize{10.1109/APEIE.2016.7802286}}}.
 
 \bibitem[Sahputra \em{et~al.}(2018)Sahputra, Alexiadis, and
   Adams]{Sahputra2018}

@@ -7,49 +7,46 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: library.bib
 Database file #2: References.bib
-Warning--I didn't find a database entry for "Nikparto2018"
-Warning--I didn't find a database entry for "Shevchenko2018"
-Warning--I didn't find a database entry for "Samarasinghe2019"
 Warning--there's a number but no volume in Hopkins2012
-You've used 9 entries,
+You've used 13 entries,
             2862 wiz_defined-function locations,
-            647 strings with 6412 characters,
-and the built_in function-call counts, 3901 in all, are:
-= -- 322
-> -- 249
-< -- 4
-+ -- 92
-- -- 74
-* -- 387
-:= -- 633
-add.period$ -- 36
-call.type$ -- 9
-change.case$ -- 9
-chr.to.int$ -- 9
-cite$ -- 10
-duplicate$ -- 175
-empty$ -- 302
-format.name$ -- 85
-if$ -- 800
+            674 strings with 7498 characters,
+and the built_in function-call counts, 5571 in all, are:
+= -- 460
+> -- 357
+< -- 5
++ -- 132
+- -- 106
+* -- 563
+:= -- 904
+add.period$ -- 52
+call.type$ -- 13
+change.case$ -- 13
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 246
+empty$ -- 431
+format.name$ -- 123
+if$ -- 1134
 int.to.chr$ -- 1
-int.to.str$ -- 9
-missing$ -- 9
-newline$ -- 56
-num.names$ -- 27
-pop$ -- 55
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 80
+num.names$ -- 39
+pop$ -- 75
 preamble$ -- 0
-purify$ -- 9
+purify$ -- 13
 quote$ -- 0
-skip$ -- 91
+skip$ -- 126
 stack$ -- 0
-substring$ -- 173
-swap$ -- 47
+substring$ -- 256
+swap$ -- 63
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 63
+type$ -- 91
 warning$ -- 1
-while$ -- 33
+while$ -- 47
 width$ -- 0
-write$ -- 128
-(There were 4 warnings)
+write$ -- 184
+(There was 1 warning)
