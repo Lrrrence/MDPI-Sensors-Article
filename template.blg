@@ -7,46 +7,44 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: library.bib
 Database file #2: References.bib
-Warning--there's a number but no volume in Hopkins2012
-You've used 13 entries,
+You've used 15 entries,
             2862 wiz_defined-function locations,
-            674 strings with 7498 characters,
-and the built_in function-call counts, 5571 in all, are:
-= -- 460
-> -- 357
-< -- 5
-+ -- 132
-- -- 106
-* -- 563
-:= -- 904
-add.period$ -- 52
-call.type$ -- 13
-change.case$ -- 13
-chr.to.int$ -- 13
-cite$ -- 14
-duplicate$ -- 246
-empty$ -- 431
-format.name$ -- 123
-if$ -- 1134
+            685 strings with 7738 characters,
+and the built_in function-call counts, 5927 in all, are:
+= -- 486
+> -- 371
+< -- 6
++ -- 140
+- -- 110
+* -- 582
+:= -- 968
+add.period$ -- 56
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 261
+empty$ -- 477
+format.name$ -- 129
+if$ -- 1202
 int.to.chr$ -- 1
-int.to.str$ -- 13
+int.to.str$ -- 15
 missing$ -- 13
-newline$ -- 80
-num.names$ -- 39
-pop$ -- 75
+newline$ -- 88
+num.names$ -- 45
+pop$ -- 94
 preamble$ -- 0
-purify$ -- 13
+purify$ -- 15
 quote$ -- 0
-skip$ -- 126
+skip$ -- 135
 stack$ -- 0
-substring$ -- 256
-swap$ -- 63
-text.length$ -- 3
+substring$ -- 253
+swap$ -- 59
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 91
-warning$ -- 1
-while$ -- 47
+type$ -- 105
+warning$ -- 0
+while$ -- 50
 width$ -- 0
-write$ -- 184
-(There was 1 warning)
+write$ -- 204

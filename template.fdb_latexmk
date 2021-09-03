@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex template"] 1630671928 "template.aux" "template.bbl" "template" 1630671937
+["bibtex template"] 1630678611 "template.aux" "template.bbl" "template" 1630678621
   "./Definitions/mdpi.bst" 1621240528 24712 a650b7df4676b7f3637f3b55c8c8f579 ""
   "References.bib" 1620293987 15527 dc7f34671dd3872b78731ae0f242d104 ""
-  "library.bib" 1630515757 714795 72a8842547239a0bf7b1266c7c47b766 ""
-  "template.aux" 1630671937 13335 55ec5c3965b052b65d7c92367ff10648 "pdflatex"
+  "library.bib" 1630678545 715181 48dfbeb6ba77b815e011eb2dee77bd2b ""
+  "template.aux" 1630678620 13493 73ccbc94344750537a6a5ba9c3961855 "pdflatex"
   (generated)
-  "template.blg"
   "template.bbl"
-["pdflatex"] 1630671929 "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" "template.pdf" "template" 1630671937
+  "template.blg"
+["pdflatex"] 1630678612 "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" "template.pdf" "template" 1630678621
   "C:/Users/yulel/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0500.pk" 1621240993 10824 d374e2217e9012802245cfe8136aef71 ""
   "C:/Users/yulel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1621336728 9557845 57d6f8cdfd3d199561ef9bfe326d311c ""
   "C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1630670758 347615 6e7690f96d8b2000c175ae6088dcf7a5 ""
@@ -60,6 +60,7 @@
   "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb" 1598123607 646884 ac5d7a82817136ee9bac033fe7f2911e ""
   "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb" 1598123621 641659 2c4570678597b1a59cea632f5457513d ""
   "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb" 1598123636 609976 45bbd42a427fcefc3140c9928104a930 ""
+  "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb" 1136856948 9356 3e1f7eacbb57d05d0b682da8d83eb600 ""
   "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb" 1136856948 15213 d999bbe8bd9c8f231f3f66a737c76478 ""
   "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb" 1136856948 52406 dad2f72863a03727d5f536c64a69c452 ""
   "C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb" 1136856948 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
@@ -270,7 +271,7 @@
   "Definitions/logo-mdpi.eps" 1621240528 736786 4711706bb26e06261526b11ff3bf4ccd ""
   "Definitions/logo-orcid.eps" 1621240528 284378 cd5384c0167d8a0d19b8252fe645ba2a ""
   "Definitions/mdpi.cls" 1621240528 47023 f036febf82b948a88eac664e33145e4c ""
-  "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" 1630671919 44756 befff7edb980dd04370dcfdda1ec7cc1 ""
+  "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" 1630678592 45245 d96c4c7b28b5128eea3aa2608aee84a2 ""
   "figures/comsoldiagram.png" 1620646873 950661 5bd6b43bd9845b07e9101fd267609f8c ""
   "figures/comsoltemp100c.png" 1630508740 76042 2e5363ba948e4fb6297b6c2df712344b ""
   "figures/grouptempshiftalu.eps" 1630580677 599462 e82a58d5e3bffb6d50db61d3d4b31a5a ""
@@ -280,10 +281,10 @@
   "figures/simpulse20csensors.eps" 1630509215 2735594 01fe7dc3fc3b6fc2a1fe31d32274cd37 ""
   "figures/testdiagramsimple.eps" 1626359524 2501446 869afdf695f226e9bb646e57e61821b3 ""
   "figures/w2wdiagram.eps" 1626361035 1781626 1730bd2b17a464ff5a5a06766d9eabb2 ""
-  "template.aux" 1630671937 13335 55ec5c3965b052b65d7c92367ff10648 "pdflatex"
-  "template.bbl" 1630671928 6075 550e112cd0952b9f8b44153842156362 "bibtex template"
-  "template.tex" 1630671919 44756 befff7edb980dd04370dcfdda1ec7cc1 ""
+  "template.aux" 1630678620 13493 73ccbc94344750537a6a5ba9c3961855 "pdflatex"
+  "template.bbl" 1630678612 6280 381181fac9e0baf7e77ad400f4d66f24 "bibtex template"
+  "template.tex" 1630678592 45245 d96c4c7b28b5128eea3aa2608aee84a2 ""
   (generated)
   "template.pdf"
-  "template.log"
   "template.aux"
+  "template.log"

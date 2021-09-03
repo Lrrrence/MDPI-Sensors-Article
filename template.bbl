@@ -96,9 +96,17 @@ Hopkins, D.C.; Baltis, T.; Pitaress, J.M.; Hazelmyer, D.R.
 \newblock {Extreme thermal transient stress analysis with pre-stress in a metal
   matrix composite power package}.
 \newblock {\em Proc. - IMAPS Int. Conf. Exhib. High Temp. Electron. HiTEC 2012}
-  {\bf 2012}, pp. 361--372.
+  {\bf 2012}, {\em 1},~361--372.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.4071/HITEC-2012-THA25}{\detokenize{10.4071/HITEC-2012-THA25}}}.
+
+\bibitem[COMSOL(2021)]{COMSOL2021}
+COMSOL.
+\newblock {Resolving time dependant waves},  2021.
+
+\bibitem[of~Southampton(2021)]{Southampton2021}
+of~Southampton, U.
+\newblock {IRIDIS 5},  2021.
 
 \bibitem[Croxford \em{et~al.}(2007)Croxford, Wilcox, Drinkwater, and
   Konstantinidis]{Croxford2007a}
