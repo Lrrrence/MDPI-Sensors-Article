@@ -1,5 +1,71 @@
 \begin{thebibliography}{999}
 
+\bibitem[Mitra and Gopalakrishnan(2016)]{Mitra2016}
+Mitra, M.; Gopalakrishnan, S.
+\newblock {Guided wave based structural health monitoring: A review}.
+\newblock {\em Smart Mater. Struct.} {\bf 2016}, {\em 25}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0964-1726/25/5/053001}{\detokenize{10.1088/0964-1726/25/5/053001}}}.
+
+\bibitem[Fatemi(1980)]{Fatemi1980}
+Fatemi, M.
+\newblock {Ultrasonic B-scan imaging: Theory of image formation and a technique
+  for restoration}.
+\newblock {\em Ultrason. Imaging} {\bf 1980}, {\em 2},~1--47.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0161-7346(80)90201-1}{\detokenize{10.1016/0161-7346(80)90201-1}}}.
+
+\bibitem[Rů{\v{z}}ek \em{et~al.}(2006)Rů{\v{z}}ek, Lohonka, and
+  Jiron{\v{c}}]{Ruzek2006}
+Rů{\v{z}}ek, R.; Lohonka, R.; Jiron{\v{c}}, J.
+\newblock {Ultrasonic C-scan and shearography NDI techniques evaluation of
+  impact defects identification}.
+\newblock {\em NDT E Int.} {\bf 2006}, {\em 39},~132--142.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ndteint.2005.07.012}{\detokenize{10.1016/j.ndteint.2005.07.012}}}.
+
+\bibitem[Imieli{\'{n}}ska \em{et~al.}(2004)Imieli{\'{n}}ska, Castaings,
+  Wojtyra, Haras, {Le Clezio}, and Hosten]{Imielinska2004}
+Imieli{\'{n}}ska, K.; Castaings, M.; Wojtyra, R.; Haras, J.; {Le Clezio}, E.;
+  Hosten, B.
+\newblock {Air-coupled ultrasonic C-scan technique in impact response testing
+  of carbon fibre and hybrid: Glass, carbon and Kevlar/epoxy composites}.
+\newblock  J. Mater. Process. Technol. Elsevier,  2004, Vol. 157, pp. 513--522.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jmatprotec.2004.07.143}{\detokenize{10.1016/j.jmatprotec.2004.07.143}}}.
+
+\bibitem[Komura \em{et~al.}(2001)Komura, Hirasawa, and Nagai]{Komura2001}
+Komura, I.; Hirasawa, T.; Nagai, S.
+\newblock {Crack detection and sizing technique by ultrasonic and
+  electromagnetic methods}.
+\newblock {\em Nucl. Eng. Des.} {\bf 2001}, {\em 206},~351--362.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/s11003-011-9382-9}{\detokenize{10.1007/s11003-011-9382-9}}}.
+
+\bibitem[Zaghari \em{et~al.}(2013)Zaghari, Humphrey, and
+  Moshrefi-Torbati]{Zaghari2013}
+Zaghari, B.; Humphrey, V.; Moshrefi-Torbati, M.
+\newblock {Dispersion behavior of torsional guided waves in a small diameter
+  steel gas pipe}.
+\newblock {\em ICAC 2013 - Proc. 19th Int. Conf. Autom. Comput. Futur. Energy
+  Autom.} {\bf 2013}, {\em 1},~37--42.
+
+\bibitem[Shi \em{et~al.}(2019)Shi, Zhuang, Xu, Yu, and Zhu]{Shi2019}
+Shi, H.; Zhuang, L.; Xu, X.; Yu, Z.; Zhu, L.
+\newblock {An ultrasonic guided wave mode selection and excitation method in
+  rail defect detection}.
+\newblock {\em Appl. Sci.} {\bf 2019}, {\em 9}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/app9061170}{\detokenize{10.3390/app9061170}}}.
+
+\bibitem[Wang \em{et~al.}(2019)Wang, Qiu, Luo, and Ding]{Wang2019}
+Wang, Y.; Qiu, L.; Luo, Y.; Ding, R.
+\newblock {A stretchable and large-scale guided wave sensor network for
+  aircraft smart skin of structural health monitoring}.
+\newblock {\em Struct. Heal. Monit.} {\bf 2019}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1475921719850641}{\detokenize{10.1177/1475921719850641}}}.
+
 \bibitem[Yule \em{et~al.}(2021)Yule, Zaghari, Harris, and Hill]{Yule2021}
 Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
 \newblock {Surface temperature condition monitoring methods for aerospace
@@ -8,67 +74,39 @@ Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1361-6501/abda96}{\detokenize{10.1088/1361-6501/abda96}}}.
 
-\bibitem[Guan \em{et~al.}(2019)Guan, Ai, and Fei]{18-guan2019enhanced}
-Guan, P.; Ai, Y.; Fei, C.
-\newblock An Enhanced Flow-Thermo-Structural Modeling and Validation for the
-  Integrated Analysis of a Film Cooling Nozzle Guide Vane.
-\newblock {\em Energies} {\bf 2019}, {\em 12},~2775.
-
-\bibitem[Findeisen \em{et~al.}(2017)Findeisen, Woerz, Wieler, Jeschke, and
-  Rabs]{Findeisen2017}
-Findeisen, E.; Woerz, B.; Wieler, M.; Jeschke, P.; Rabs, M.
-\newblock {Evaluation of numerical methods to predict temperature distributions
-  of an experimentally investigated convection-cooled gas-Turbine blade}.
-\newblock {\em Proc. ASME Turbo Expo} {\bf 2017}, {\em 5B-2017},~1--13.
+\bibitem[Abbas \em{et~al.}(2020)Abbas, Li, Qiu, Zhu, and Tu]{Abbas2020a}
+Abbas, S.; Li, F.; Qiu, J.; Zhu, Y.; Tu, X.
+\newblock {Optimization of ultrasonic guided wave inspection in structural
+  health monitoring based on thermal sensitivity evaluation}.
+\newblock {\em J. Low Freq. Noise Vib. Act. Control} {\bf 2020}.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1115/GT2017-64205}{\detokenize{10.1115/GT2017-64205}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1461348419886189}{\detokenize{10.1177/1461348419886189}}}.
 
-\bibitem[Peral \em{et~al.}(2019)Peral, Araguas-Rodriguez, Karagiannopoulos,
-  Ya{\~{n}}ez-Gonzalez, Feist, Castillo, Pilgrim, and Skinner]{Peral2019}
-Peral, D.; Araguas-Rodriguez, S.; Karagiannopoulos, S.; Ya{\~{n}}ez-Gonzalez,
-  A.; Feist, J.P.; Castillo, D.; Pilgrim, C.; Skinner, S.
-\newblock {Reliable temperature measurement with thermal history paints: An
-  uncertainty estimation model}.
-\newblock  Proc. ASME Turbo Expo. American Society of Mechanical Engineers
-  (ASME),  2019, Vol.~6, p.~10.
+\bibitem[Dransfeld and Salzmann(1970)]{Dransfeld1970}
+Dransfeld, K.; Salzmann, E.
+\newblock {\em {Excitation, Detection, and Attenuation of High-Frequency
+  Elastic Surface Waves}}; Vol.~7, ACADEMIC PRESS, INC.,  1970; pp. 219--272.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1115/GT2019-92087}{\detokenize{10.1115/GT2019-92087}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/B978-0-12-395667-5.50010-6}{\detokenize{10.1016/B978-0-12-395667-5.50010-6}}}.
 
-\bibitem[Nikparto and Schobeiri(2018)]{Nikparto2018}
-Nikparto, A.; Schobeiri, M.T.
-\newblock {Combined numerical and experimental investigations of heat transfer
-  of a highly loaded low-pressure turbine blade under periodic inlet flow
-  condition}.
-\newblock {\em Proc. Inst. Mech. Eng. Part A J. Power Energy} {\bf 2018}, {\em
-  232},~769--784.
+\bibitem[Rose(2014)]{Rose2014}
+Rose, J.L.
+\newblock {\em {Ultrasonic guided waves in solid media}}; Vol. 9781107048,
+  Cambridge University Press,  2014; pp. 1--512.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/0957650918758158}{\detokenize{10.1177/0957650918758158}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1017/CBO9781107273610}{\detokenize{10.1017/CBO9781107273610}}}.
 
-\bibitem[Shevchenko \em{et~al.}(2018)Shevchenko, Rogalev, Rogalev, Vegera, and
-  Bychkov]{Shevchenko2018}
-Shevchenko, I.; Rogalev, N.; Rogalev, A.; Vegera, A.; Bychkov, N.
-\newblock {Verification of Thermal Models of Internally Cooled Gas Turbine
-  Blades}.
-\newblock {\em Int. J. Rotating Mach.} {\bf 2018}, {\em 2018}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1155/2018/6780137}{\detokenize{10.1155/2018/6780137}}}.
+\bibitem[Su and Ye(2009)]{Su2009a}
+Su, Z.; Ye, L.
+\newblock {\em {Identification of damage using Lamb waves: From fundamentals to
+  applications}}; Vol.~48, Springer,  2009.
+\newblock doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/
+  978-1-84882-784-4}{\detokenize{10.1007/ 978-1-84882-784-4}}}.
 
-\bibitem[Guan \em{et~al.}(2019)Guan, Ai, Fei, and Yao]{Guan2019}
-Guan, P.; Ai, Y.; Fei, C.; Yao, Y.
-\newblock {Thermal fatigue life prediction of thermal barrier coat on nozzle
-  guide vane via master-slave model}.
-\newblock {\em Appl. Sci.} {\bf 2019}, {\em 9},~1--21.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/app9204357}{\detokenize{10.3390/app9204357}}}.
-
-\bibitem[Samarasinghe \em{et~al.}(2019)Samarasinghe, Abeykoon, and
-  Turan]{Samarasinghe2019}
-Samarasinghe, T.; Abeykoon, C.; Turan, A.
-\newblock {Modelling of heat transfer and fluid flow in the hot section of gas
-  turbines used in power generation: A comprehensive survey}.
-\newblock {\em Int. J. Energy Res.} {\bf 2019}, {\em 43},~1647--1669.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/er.4296}{\detokenize{10.1002/er.4296}}}.
+\bibitem[Cheeke(2000)]{Cheeke2000a}
+Cheeke, J.D.N.
+\newblock {\em {Fundamentals and applications of ultrasonic waves}}, 1 ed.; CRC
+  Press,  2000; p.~3.
 
 \bibitem[Nikolaevtsev \em{et~al.}(2016)Nikolaevtsev, Suchkov, Selifonov,
   Suchkov, Yankin, and Suchkova]{Nikolaevtsev2016a}
@@ -103,6 +141,7 @@ Hopkins, D.C.; Baltis, T.; Pitaress, J.M.; Hazelmyer, D.R.
 \bibitem[COMSOL(2021)]{COMSOL2021}
 COMSOL.
 \newblock {Resolving time dependant waves},  2021.
+\newblock url = {https://uk.comsol.com/support/knowledgebase/1118}.
 
 \bibitem[of~Southampton(2021)]{Southampton2021}
 of~Southampton, U.

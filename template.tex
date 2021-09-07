@@ -55,7 +55,7 @@
 
 %=================================================================
 % Full title of the paper (Capitalized)
-\Title{Modelling of guided wave sensor systems for harsh environment sensing}
+\Title{Modelling and validation of a guided acoustic wave temperature monitoring system}
 
 % MDPI internal command: Title for citation in the left column
 \TitleCitation{Modelling of guided wave sensor systems for harsh environment sensing}
@@ -140,26 +140,31 @@ Condition monitoring is vital in maintaining the health of many different forms 
 
 This paper describes the development of a COMSOL model based on an experimental test setup used to monitor temperature using the propagation of ultrasonic Lamb waves. The model described will contribute to the development of a guided wave based temperature monitoring system for use on jet engine nozzle guide vanes. The vanes are exposed to extremely high temperature and gas pressures, which makes testing of sensors difficult. A COMSOL model has been developed to simulate guided wave propagation in an aluminium plate, where the environment can easily be adjusted to evaluate the impact on wave propagation and sensor operation. A guide to building and running the model is provided, along with validation of the model against theoretical Lamb wave temperature sensitivity extracted from dispersion curves, and experimental results from the test setup that the COMSOL model replicates. The model will be further developed in the future to understand the effect of cooling holes, curved surfaces, and surface coatings on wave propagation.
 
-\subsection{Short review on NGV temperature monitoring}
+\subsection{Potential applications of a ultrasonic temperature monitoring system}
 
-Nozzle guide vanes are static components located in the turbine section of jet engines that are operated at extremely high temperatures. The monitoring of these components is challenging because of their location, and the extreme temperatures and gas pressures that they are exposed to. There are a number of well established offline monitoring methods (thermal paints and thermal history sensors) that record the peak temperature of exposure during an operational cycle of a turbine, but considerably less well established methods for online monitoring during normal operation (thin film thermocouples, thermographic phosphors, and pyrometers). The offline methods are used in the design stage to verify analytical models, locating areas of the component with high temperature gradients, and ensuring that the component does not exceed temperature limits. Online methods can provide considerably more data during start-up and shut-down of the engine, as well as recording any overshoot events. Online methods can be used for health monitoring and data can be fed into active control systems. The Lamb wave based monitoring system described in this paper is considered as a new method of online monitoring that can provide fast response times and a high level of accuracy without affecting component or engine operation. A comprehensive review of both offline and online monitoring methods, and an introduction to ultrasonic based temperature monitoring is provided by Yule \textit{et al.}~\cite{Yule2021}.
+Ultrasound is of particular interest for SHM applications as it allows for small sensors, high precision, fast data rates, and can be utilised at frequencies much higher than environmental noise~\cite{Mitra2016}. Traditional ultrasonic NDE utilises A-scans, a measurement of signal amplitude against time, to detect cracks, defects etc. This can be extended to B~\cite{Fatemi1980}, C~\cite{Ruzek2006,Imielinska2004}, or phased-array~\cite{Komura2001} scans to build an image of damage in an area by moving the transducers around and carrying out multiple measurements. 
 
-\subsection{Review of methods used to model harsh environment sensing}
+Guided waves can travel large distances with limited attenuation using constructive interference with surfaces/boundaries, which is already utilised for pipe~\cite{Zaghari2013} and rail inspection methods~\cite{Shi2019}. Guided waves have been proposed as a method of defect detection for aircraft~\cite{Wang2019}, installing transducers in large arrays to allow for guided wave tomography.
 
-Numerical simulations are used to find the cooling effectiveness of turbine blades and NGVs. Results of the simulations are validated against experimental results, such as those from temperature-sensitive paints~\cite{18-guan2019enhanced}. Finite element modelling (FEM) can be used to predict the thermal load on a blade and analyse the effectiveness of blade cooling methods. There are two methods of calculations, uncoupled or coupled. Uncoupled methods are less computational intensive as the heat transfer coefficients used in the calculations are only computed at key engine operating conditions. Coupled methods use computational fluid dynamic (CFD) calculations to iterate the heat transfer coefficients, which improves accuracy over uncoupled methods. Findeisen \textit{et al.}~\cite{Findeisen2017} compared two coupled methods, FEM1D and FEM2D. The FEM1D method uses simplified models of the cooling system making it suitable for initial designs, while the FEM2D method uses three dimensional CFD simulations that are more realistic but nearly a hundred times slower than FEM1D. This makes FEM2D models more suitable for comparison with experimental data. In order to validate complex thermal models over 80\% of the surface should be measured, which is not possible with point measurement systems such as thermocouples~\cite{Peral2019}. Thermal maps allow manufacturers to better understand the effects of air flow on specific areas of components, which can help to improve the life cycle of a part. Areas of increased thermal stress can be identified, which may require additional cooling or design adjustment, while also highlighting less critical areas that could be reduced in weight or cooling. 
+Despite the numerous uses of guided waves they have not yet been utilised for temperature monitoring applications. Sensors can be placed away from harsh environments, and the operation of the monitoring system will not impact upon the operation of the device/component itself. Working at high frequencies can allow for fast response times and resolutions/accuracy comparable with traditional temperature sensors. 
 
-Models are often used to predict heat transfer coefficients, which are strongly linked to the aerodynamic performance of the component. A small error in prediction of aerodynamic performance leads to a large error in the prediction of heat transfer coefficient~\cite{Nikparto2018}. The accuracy of heat transfer models is dependant on the turbulence model, the approach to three-dimensional modelling, and the density of geometric grid. An example of comparison between experimental measurements and the modelling of turbine blade heat transfer shows that there can be discrepancies of up to 40\si{\degreeCelsius} on the surface of a blade when the upstream gas temperature is 614\si{\degreeCelsius}~\cite{Shevchenko2018}. Guan \textit{et al.}~\cite{Guan2019} compared the results of a coupled model to experimental measurements from temperature sensitive paints, which provided comparable results when film cooling was taken into account. A comprehensive review of conjugate heat transfer models has been carried out by Samarasinghe~\cite{Samarasinghe2019}.
+An example of a potential application for this technology is nozzle guide vanes, which are static components located in the turbine section of jet engines that are operated at extremely high temperatures. The monitoring of these components is challenging because of their location, and the extreme temperatures and gas pressures that they are exposed to. There are a number of well established offline monitoring methods (thermal paints and thermal history sensors) that record the peak temperature of exposure during an operational cycle of a turbine, but considerably less well established methods for online monitoring during normal operation (thin film thermocouples, thermographic phosphors, and pyrometers). The offline methods are used in the design stage to verify analytical models, locating areas of the component with high temperature gradients, and ensuring that the component does not exceed temperature limits. Online methods can provide considerably more data during start-up and shut-down of the engine, as well as recording any overshoot events. Online methods can be used for health monitoring and data can be fed into active control systems. A comprehensive review of both offline and online monitoring methods, and an introduction to ultrasonic based temperature monitoring is provided by Yule \textit{et al.}~\cite{Yule2021}. 
 
-\subsection{Review of other studies done in COMSOL for harsh environment sensing}
-\textcolor{blue}{Items to add: Piezoelectric models, temperature variation models, guided wave models. If they compare their work with experiments, then talk about that too if not explain that in this work you at least validated part of your model with experiments.}
+The basis of developing a temperature monitoring system using ultrasonic guided waves relies on temperature having an effect on wave propagation. Any change in material properties within the propagation medium will have an effect on wave propagation. A change in temperature causes a change in Young's modulus, Poisson's ratio, and density. Young's modulus has the largest effect on wave propagation, reducing with increasing temperature, which causes a reduction in wave velocity. Density also decreases with increasing temperature, manifesting as thermal expansion, which has a relatively small effect on wave velocity. Poisson's ratio changes can have a large impact on wave propagation, but generally only occur over large temperature ranges~\cite{Abbas2020a}.
 
-The literature covering the use of COMSOL for modelling Lamb wave excitation using wedge transducers is limited, however it has been shown that Lamb waves can be successfully generated using this method~\cite{Nikolaevtsev2016a}.
+When working with thin plate-like structures the propagation of Rayleigh waves (otherwise known as ``Surface Acoustic Waves'' (SAWs)) can be excited at high frequencies (at wavelengths much smaller than material thickness) and are confined to the surface of a material, while Lamb waves (otherwise known as ``Guided Waves'') will propagate if excited at frequencies with wavelengths in the order of material thickness, as they interact with both the top and bottom boundaries of a material.
 
-\textcolor{red}{not sure on the need for this section.}
+Although Rayleigh waves can be used for temperature monitoring applications they produce large surface motions that are highly sensitive to any discontinuities or defects and are highly affected by surface coatings~\cite{Dransfeld1970}. Lamb waves are guided by the upper and lower boundaries of a material allowing for continuous wave propagation~\cite{Rose2014}. Unlike bulk acoustic waves Lamb waves are dispersive and multi-modal which makes their analysis complex, especially when their are other factors such as changing temperatures are involved. The lowest order modes, the fundamental antisymmetric mode $A_0$, and the fundamental symmetric mode $S_0$, are the most commonly used modes as they are relatively non-dispersive and comparatively easy to generate in comparison to the higher order modes ($A_1$, $S_1$, etc.). Lower order Lamb waves are used extensively for NDE and SHM applications and an overview of their uses for damage identification is provided by Su~\cite{Su2009a}. Lamb waves have both phase and group velocities, the phase velocity relating to the local speed with which phase of the wave changes, and a group velocity which describes the overall speed of energy transport through the propagating wave. Phase velocity is generally higher than the group velocity. Time of flight ($t_F$) measurements of Lamb waves give the group velocity, while special phase comparison techniques are needed to measure the phase velocity~\cite{Cheeke2000a}. 
+
+As temperature changes cause a change in wave velocity, time of flight measurement can be used to monitor a change in temperature. Group velocity can be calculated if the propagation distance is precisely known. This is the basis for the monitoring system described in this paper.
 
 \section{Lamb wave mode targeting}
 
-The COMSOL model described in the next section is based on the experimental setup described in Section~\ref{experiments}. The experimental setup has been used to analyse the effect of temperature on wave propagation in an Aluminium plate. Dispersion curves have been generated based on material properties to determine a suitable excitation frequency, and to extract the temperature sensitivity of the selected mode. The $S_0$ Lamb wave mode has been targeted at a frequency-thickness product of 1 MHz-mm (in a 1 mm plate). The velocities extracted from dispersion curves can be seen plotted against experimental and simulated results in Figure~\ref{fig:s0result}.
+The dispersive multi-modal nature of Lamb waves means that careful selection of excitation frequency is required to target wave modes that can be more easily analysed. The choice of frequency/mode also determines the temperature sensitivity. The generation of dispersion curves based on material properties aides in this process, and they can be used to validate the results of simulated or experimental measurements. 
+
+The COMSOL model described in the next section is based on the experimental setup described in Section~\ref{experiments}. The experimental setup has been used to analyse the effect of temperature on wave propagation in an Aluminium plate. 
+
+The $S_0$ Lamb wave mode has been targeted at a frequency-thickness product of 1 MHz-mm (in a 1 mm plate). The velocities extracted from dispersion curves can be seen plotted against experimental and simulated results in Figure~\ref{fig:s0result}.
 
 \begin{figure}[!htbp]
     \centering
@@ -181,10 +186,13 @@ The wedge angle required to excite the $S_0$ mode is:
 \end{equation} 
 %
 The $A_0$ mode cannot be excited using this method as the phase velocity at this frequency (2312 m s$^{-1}$) is slower than the longitudinal velocity of the wedge. If the $A_0$ mode is present in the signal it will not affect measurement of the $S_0$ mode as it’s group velocity is significantly different than that of the $S_0$ mode, which will cause a distinct second wave packet. 
+
+It should be made clear, however, that the use of wedge transducers is unlikely to be the finalised transducer configuration for a permanently installed temperature monitoring system, as they rely on liquid couplants and acrylic wedges that would melt at relatively low temperatures. The use of wedges at this stage are useful for simplifying the signal processing techniques required, and targeting specific wave modes of interest.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{COMSOL simulation methods}
 
-The multiphysics simulation package COMSOL has been used to simulate a potential temperature monitoring system, as described experimentally in Section~\ref{experiments}.
+The multiphysics simulation package COMSOL has been used to simulate a potential temperature monitoring system, as described experimentally in Section~\ref{experiments}. The literature covering the use of COMSOL for modelling Lamb wave excitation using wedge transducers is limited, however it has been shown that Lamb waves can be successfully generated using this method~\cite{Nikolaevtsev2016a}.
 
 \begin{figure}[h]
     \centering
@@ -220,7 +228,7 @@ The change in Young's Modulus with temperature is included in the material prope
 %
 \begin{equation}
     \label{eqn:E PMMA}
-    E\left( T \right) = \ -15250.0000000002\times T^2 + 1125000.00000015\times T + 5432499999.99998\    
+    E\left( T \right) = \ - 15250\times T^2 + 1125000\times T + 4932500000\    
 \end{equation}
 %
 \begin{equation}
@@ -360,6 +368,11 @@ Figure~\ref{fig:s0result} shows the change in velocity with temperature for the 
     \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between theoretical, experimental, and simulated results.}\label{fig:s0result}
 \end{figure}
 
+The Lamb wave based monitoring system described in this paper is considered as a new method of online monitoring that can provide fast response times and a high level of accuracy without affecting component or engine operation. 
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{6pt} 
 
@@ -372,21 +385,15 @@ Figure~\ref{fig:s0result} shows the change in velocity with temperature for the 
 % \supplementary{The following are available at \linksupplementary{s1}, Figure S1: title, Table S1: title, Video S1: title. A supporting video article is available at doi: link.} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\authorcontributions{For research articles with several authors, a short paragraph specifying their individual contributions must be provided. The following statements should be used ``Conceptualization, X.X. and Y.Y.; methodology, X.X.; software, X.X.; validation, X.X., Y.Y. and Z.Z.; formal analysis, X.X.; investigation, X.X.; resources, X.X.; data curation, X.X.; writing---original draft preparation, X.X.; writing---review and editing, X.X.; visualization, X.X.; supervision, X.X.; project administration, X.X.; funding acquisition, Y.Y. All authors have read and agreed to the published version of the manuscript.'', please turn to the  \href{http://img.mdpi.org/data/contributor-role-instruction.pdf}{CRediT taxonomy} for the term explanation. Authorship must be limited to those who have contributed substantially to the work~reported.}
+\authorcontributions{Conceptualization, methodology, software development, validation, data collection, analysis, writing: Lawrence Yule. Conceptualization, supervision, draft preparation, review, and editing: Bahareh Zaghari, Nicholas Harris, and Martyn Hill. All authors have read and agreed to the published version of the manuscript.}
 
-\funding{Please add: ``This research received no external funding'' or ``This research was funded by NAME OF FUNDER grant number XXX.'' and  and ``The APC was funded by XXX''. Check carefully that the details given are accurate and use the standard spelling of funding agency names at \url{https://search.crossref.org/funding}, any errors may affect your future funding.}
-
-\institutionalreview{In this section, please add the Institutional Review Board Statement and approval number for studies involving humans or animals. Please note that the Editorial Office might ask you for further information. Please add ``The study was conducted according to the guidelines of the Declaration of Helsinki, and approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).'' OR ``Ethical review and approval were waived for this study, due to REASON (please provide a detailed justification).'' OR ``Not applicable'' for studies not involving humans or animals. You might also choose to exclude this statement if the study did not involve humans or animals.}
-
-\informedconsent{Any research article describing a study involving humans should contain this statement. Please add ``Informed consent was obtained from all subjects involved in the study.'' OR ``Patient consent was waived due to REASON (please provide a detailed justification).'' OR ``Not applicable'' for studies not involving humans. You might also choose to exclude this statement if the study did not involve humans.
-
-Written informed consent for publication must be obtained from participating patients who can be identified (including by the patients themselves). Please state ``Written informed consent has been obtained from the patient(s) to publish this paper'' if applicable.}
+\funding{This work was supported by Lloyds Register Foundation International Consortium of Nanotechnology and University of Southampton DTP fund.}
 
 \dataavailability{In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Please refer to suggested Data Availability Statements in section ``MDPI Research Data Policies'' at \url{https://www.mdpi.com/ethics}. You might choose to exclude this statement if the study did not report any data.} 
 
 \acknowledgments{The authors acknowledge the use of the IRIDIS High Performance Computing Facility, and associated support services at the University of Southampton, in the completion of this work.}
 
-\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflict of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript, or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the~results''.} 
+\conflictsofinterest{The authors declare no conflict of interest.} 
 
 %% Optional
 %\sampleavailability{Samples of the compounds ... are available from the authors.}
