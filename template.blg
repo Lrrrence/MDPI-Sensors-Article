@@ -7,51 +7,47 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: library.bib
 Database file #2: References.bib
-Warning--I didn't find a database entry for "COMSOL2013"
-Warning--I didn't find a database entry for "COMSOL2017"
-Warning--I didn't find a database entry for "COMSOL2021a"
-Warning--I didn't find a database entry for "Guers2011"
 Warning--can't use both volume and number fields in Imielinska2004
 Warning--can't use both volume and number fields in Dransfeld1970
-You've used 22 entries,
+You've used 25 entries,
             2862 wiz_defined-function locations,
-            755 strings with 8991 characters,
-and the built_in function-call counts, 8298 in all, are:
-= -- 717
-> -- 438
-< -- 18
-+ -- 172
-- -- 128
-* -- 744
-:= -- 1319
-add.period$ -- 78
-call.type$ -- 22
-change.case$ -- 23
-chr.to.int$ -- 22
-cite$ -- 24
-duplicate$ -- 395
-empty$ -- 705
-format.name$ -- 158
-if$ -- 1739
-int.to.chr$ -- 1
-int.to.str$ -- 22
-missing$ -- 23
-newline$ -- 124
-num.names$ -- 66
-pop$ -- 153
+            763 strings with 9368 characters,
+and the built_in function-call counts, 8879 in all, are:
+= -- 771
+> -- 451
+< -- 21
++ -- 183
+- -- 132
+* -- 750
+:= -- 1421
+add.period$ -- 88
+call.type$ -- 25
+change.case$ -- 27
+chr.to.int$ -- 24
+cite$ -- 27
+duplicate$ -- 426
+empty$ -- 769
+format.name$ -- 163
+if$ -- 1864
+int.to.chr$ -- 2
+int.to.str$ -- 25
+missing$ -- 22
+newline$ -- 140
+num.names$ -- 75
+pop$ -- 188
 preamble$ -- 0
-purify$ -- 22
+purify$ -- 25
 quote$ -- 0
-skip$ -- 225
+skip$ -- 244
 stack$ -- 0
-substring$ -- 336
-swap$ -- 101
+substring$ -- 323
+swap$ -- 106
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 142
+type$ -- 163
 warning$ -- 2
-while$ -- 72
+while$ -- 76
 width$ -- 0
-write$ -- 299
-(There were 6 warnings)
+write$ -- 338
+(There were 2 warnings)

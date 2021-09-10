@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex template"] 1631205985 "template.aux" "template.bbl" "template" 1631205995
+["bibtex template"] 1631276142 "template.aux" "template.bbl" "template" 1631276152
   "./Definitions/mdpi.bst" 1621240528 24712 a650b7df4676b7f3637f3b55c8c8f579 ""
   "References.bib" 1620293987 15527 dc7f34671dd3872b78731ae0f242d104 ""
-  "library.bib" 1631010984 715188 3b5bfad4bd8f040e60275945aeb665f2 ""
-  "template.aux" 1631205994 12518 4ab13bd19f143d13af811bf751cc39e3 "pdflatex"
+  "library.bib" 1631268513 716262 4594b1c4374c94d9f883d2e2e547233c ""
+  "template.aux" 1631276151 11871 9e3675da450ac67bc0a5be88c362a026 "pdflatex"
   (generated)
-  "template.blg"
   "template.bbl"
-["pdflatex"] 1631205985 "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" "template.pdf" "template" 1631205995
+  "template.blg"
+["pdflatex"] 1631276142 "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" "template.pdf" "template" 1631276152
   "C:/Users/yulel/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0500.pk" 1621240993 10824 d374e2217e9012802245cfe8136aef71 ""
   "C:/Users/yulel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1630694698 9557844 50a7b578a6d70baccc7a78f8b5aeb4ee ""
   "C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1630670758 347615 6e7690f96d8b2000c175ae6088dcf7a5 ""
@@ -271,7 +271,7 @@
   "Definitions/logo-mdpi.eps" 1621240528 736786 4711706bb26e06261526b11ff3bf4ccd ""
   "Definitions/logo-orcid.eps" 1621240528 284378 cd5384c0167d8a0d19b8252fe645ba2a ""
   "Definitions/mdpi.cls" 1621240528 47023 f036febf82b948a88eac664e33145e4c ""
-  "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" 1631205974 46297 75c3632f7a855aae05a736c925e0f262 ""
+  "c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex" 1631276132 46266 1b65295ad97c08e59cd7f2add98a6227 ""
   "figures/comsoldiagram.png" 1620646873 950661 5bd6b43bd9845b07e9101fd267609f8c ""
   "figures/comsoltemp100c.png" 1630508740 76042 2e5363ba948e4fb6297b6c2df712344b ""
   "figures/grouptempshiftalu.eps" 1630580677 599462 e82a58d5e3bffb6d50db61d3d4b31a5a ""
@@ -281,10 +281,10 @@
   "figures/simpulse20csensors.eps" 1630509215 2735594 01fe7dc3fc3b6fc2a1fe31d32274cd37 ""
   "figures/testdiagramsimple.eps" 1626359524 2501446 869afdf695f226e9bb646e57e61821b3 ""
   "figures/w2wdiagram.eps" 1626361035 1781626 1730bd2b17a464ff5a5a06766d9eabb2 ""
-  "template.aux" 1631205994 12518 4ab13bd19f143d13af811bf751cc39e3 "pdflatex"
-  "template.bbl" 1631205985 8171 ef5d3903bfca15775adf43bd3ea16bba "bibtex template"
-  "template.tex" 1631205974 46297 75c3632f7a855aae05a736c925e0f262 ""
+  "template.aux" 1631276151 11871 9e3675da450ac67bc0a5be88c362a026 "pdflatex"
+  "template.bbl" 1631276142 8878 f86fee530d3456b7f1fa8b3215c6b5a9 "bibtex template"
+  "template.tex" 1631276132 46266 1b65295ad97c08e59cd7f2add98a6227 ""
   (generated)
-  "template.aux"
-  "template.pdf"
   "template.log"
+  "template.pdf"
+  "template.aux"

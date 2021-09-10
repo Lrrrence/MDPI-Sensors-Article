@@ -66,14 +66,6 @@ Wang, Y.; Qiu, L.; Luo, Y.; Ding, R.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1475921719850641}{\detokenize{10.1177/1475921719850641}}}.
 
-\bibitem[Yule \em{et~al.}(2021)Yule, Zaghari, Harris, and Hill]{Yule2021}
-Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
-\newblock {Surface temperature condition monitoring methods for aerospace
-  turbomachinery: exploring the use of ultrasonic guided waves}.
-\newblock {\em Meas. Sci. Technol.} {\bf 2021}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1361-6501/abda96}{\detokenize{10.1088/1361-6501/abda96}}}.
-
 \bibitem[Abbas \em{et~al.}(2020)Abbas, Li, Qiu, Zhu, and Tu]{Abbas2020a}
 Abbas, S.; Li, F.; Qiu, J.; Zhu, Y.; Tu, X.
 \newblock {Optimization of ultrasonic guided wave inspection in structural
@@ -108,9 +100,19 @@ Cheeke, J.D.N.
 \newblock {\em {Fundamentals and applications of ultrasonic waves}}, 1 ed.; CRC
   Press,  2000; p.~3.
 
+\bibitem[Yule \em{et~al.}(2021)Yule, Zaghari, Harris, and Hill]{Yule2021}
+Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
+\newblock {Surface temperature condition monitoring methods for aerospace
+  turbomachinery: exploring the use of ultrasonic guided waves}.
+\newblock {\em Meas. Sci. Technol.} {\bf 2021}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1361-6501/abda96}{\detokenize{10.1088/1361-6501/abda96}}}.
+
 \bibitem[Huber(2020)]{Huber}
 Huber, A.
 \newblock {The Dispersion Calculator},  2020.
+\newblock url =
+  {https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874{\_}read-61142/{\#}/gallery/33485}.
 
 \bibitem[Nikolaevtsev \em{et~al.}(2016)Nikolaevtsev, Suchkov, Selifonov,
   Suchkov, Yankin, and Suchkova]{Nikolaevtsev2016a}
@@ -142,14 +144,38 @@ Hopkins, D.C.; Baltis, T.; Pitaress, J.M.; Hazelmyer, D.R.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.4071/HITEC-2012-THA25}{\detokenize{10.4071/HITEC-2012-THA25}}}.
 
-\bibitem[COMSOL(2021)]{COMSOL2021}
+\bibitem[COMSOL(2013)]{COMSOL2013}
+COMSOL.
+\newblock {Mesh Refinement for Wave Problems},  2013.
+\newblock url =
+  {https://uk.comsol.com/blogs/mesh-refinement-for-wave-problems/}.
+
+\bibitem[COMSOL(2017)]{COMSOL2017}
+COMSOL.
+\newblock {How to Inspect Your Mesh in COMSOL Multiphysics},  2017.
+\newblock url =
+  {https://uk.comsol.com/blogs/how-to-inspect-your-mesh-in-comsol-multiphysics/}.
+
+\bibitem[COMSOL(2021{\natexlab{a}})]{COMSOL2021}
 COMSOL.
 \newblock {Resolving time dependant waves},  2021.
 \newblock url = {https://uk.comsol.com/support/knowledgebase/1118}.
 
-\bibitem[of~Southampton(2021)]{Southampton2021}
-of~Southampton, U.
+\bibitem[COMSOL(2021{\natexlab{b}})]{COMSOL2021a}
+COMSOL.
+\newblock {Reducing the amount of solution data stored in a model},  2021.
+\newblock url = {https://www.comsol.ch/support/knowledgebase/1255}.
+
+\bibitem[{University of Southampton}(2021)]{Southampton2021}
+{University of Southampton}.
 \newblock {IRIDIS 5},  2021.
+\newblock url = {https://www.southampton.ac.uk/isolutions/staff/iridis.page}.
+
+\bibitem[Guers(2011)]{Guers2011}
+Guers, M.J.
+\newblock {IN-SITU MONITORING OF REMOTE SPECIMENS USING ULTRASONIC GUIDED
+  WAVES}.
+\newblock Phd thesis, Pennsylvania State University,  2011.
 
 \bibitem[Croxford \em{et~al.}(2007)Croxford, Wilcox, Drinkwater, and
   Konstantinidis]{Croxford2007a}
@@ -159,12 +185,5 @@ Croxford, A.J.; Wilcox, P.D.; Drinkwater, B.W.; Konstantinidis, G.
   463},~2961--2981.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rspa.2007.0048}{\detokenize{10.1098/rspa.2007.0048}}}.
-
-\bibitem[Alleyne and Cawley(1992)]{Alleyne1992}
-Alleyne, D.N.; Cawley, P.
-\newblock {Optimization of lamb wave inspection techniques}.
-\newblock {\em NDT E Int.} {\bf 1992}, {\em 25},~11--22.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0963-8695(92)90003-Y}{\detokenize{10.1016/0963-8695(92)90003-Y}}}.
 
 \end{thebibliography}

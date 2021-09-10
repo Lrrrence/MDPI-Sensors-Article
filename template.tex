@@ -136,35 +136,23 @@ $^{4}$ \quad University of Southampton, Southampton, UK, SO17 1BJ; M.Hill@soton.
 
 \section{Introduction}
 
-Condition monitoring is vital in maintaining the health of many different forms of machines and components. The advent of small, robust sensors has allowed considerable monitoring to take place, but there is still scope to extend monitoring to harsher environments. The monitoring of components at high temperatures is of particular importance as operating components closer to their thermal limits can increase efficiency, which can reduce operational costs. Exposure to high temperatures increases the risk of failure, which makes health monitoring of these components vitally important. Additional high temperature sensors can feed into active control systems to ensure optimal operation of complex systems. During the component design stage finite element models are often used to predict thermal stresses, but are difficult to verify experimentally. The development of new high temperature sensors can inform design decisions and improve the accuracy of models, which will lead to increased efficiency in the finalised component. The modelling of sensor systems as well as the components themselves can allow the impact of the sensors on component operation to be analysed.
+Condition monitoring is vital in maintaining the health of many different forms of machines and components. The advent of small, robust sensors has allowed considerable monitoring to take place, but there is still scope to extend monitoring to harsher environments. The monitoring of components at high temperatures is of particular importance as operating components closer to their thermal limits can increase efficiency, which can reduce operational costs. Exposure to high temperatures increases the risk of failure, which makes health monitoring of these components vitally important. Additional high temperature sensors can feed into active control systems to ensure optimal operation of complex systems. During the design stage finite element models are often used to predict thermal stresses, but are difficult to verify experimentally. The development of new high temperature sensors can inform design decisions and improve the accuracy of models, which will lead to increased efficiency in the finalised component. The modelling of sensor systems as well as the components themselves can allow the impact of the sensors on component operation to be analysed.
 
-This paper describes the development of a COMSOL model based on an experimental test setup used to monitor temperature using the propagation of ultrasonic Lamb waves. The model described will contribute to the development of a guided wave based temperature monitoring system for use on jet engine nozzle guide vanes. The vanes are exposed to extremely high temperature and gas pressures, which makes testing of sensors difficult. A COMSOL model has been developed to simulate guided wave propagation in an aluminium plate, where the environment can easily be adjusted to evaluate the impact on wave propagation and sensor operation. A guide to building and running the model is provided, along with validation of the model against theoretical Lamb wave temperature sensitivity extracted from dispersion curves, and experimental results from the test setup that the COMSOL model replicates. The model will be further developed in the future to understand the effect of cooling holes, curved surfaces, and surface coatings on wave propagation.
+Ultrasound is of particular interest for SHM applications as it allows for small sensors, high precision, fast data rates, and can be utilised at frequencies much higher than environmental noise~\cite{Mitra2016}. Traditional ultrasonic NDE utilises A-scans, a measurement of signal amplitude against time, to detect cracks, defects etc. This can be extended to B~\cite{Fatemi1980}, C~\cite{Ruzek2006,Imielinska2004}, or phased-array~\cite{Komura2001} scans to build an image of damage in an area by moving the transducers around and carrying out multiple measurements. Guided waves can travel large distances with limited attenuation using constructive interference with surfaces/boundaries, which is already utilised for pipe~\cite{Zaghari2013} and rail inspection methods~\cite{Shi2019}. Guided waves have been proposed as a method of defect detection for aircraft~\cite{Wang2019}, installing transducers in large arrays to allow for guided wave tomography. Despite the numerous uses of guided waves they have not yet been utilised for temperature monitoring applications. Sensors can be placed away from harsh environments, and the operation of the monitoring system will not impact upon the operation of the device/component itself. Working at high frequencies can allow for fast response times and resolutions/accuracy comparable with traditional temperature sensors. The basis of developing a temperature monitoring system using ultrasonic guided waves relies on temperature having an effect on wave propagation. Any change in material properties within the propagation medium will have an effect on wave propagation. A change in temperature causes a change in Young's modulus, Poisson's ratio, and density. Young's modulus has the largest effect on wave propagation, reducing with increasing temperature, which causes a reduction in wave velocity. Density also decreases with increasing temperature, manifesting as thermal expansion, which has a relatively small effect on wave velocity. Poisson's ratio changes can have a large impact on wave propagation, but generally only occur over large temperature ranges~\cite{Abbas2020a}.
+
+When working with thin plate-like structures the propagation of Rayleigh waves (otherwise known as ``Surface Acoustic Waves'' (SAWs)) can be excited at high frequencies (at wavelengths much smaller than material thickness) and are confined to the surface of a material, while Lamb waves (otherwise known as ``Guided Waves'') will propagate if excited at frequencies with wavelengths in the order of material thickness, as they interact with both the top and bottom boundaries of a material. Although Rayleigh waves can be used for temperature monitoring applications they produce large surface motions that are highly sensitive to any discontinuities or defects and are highly affected by surface coatings~\cite{Dransfeld1970}. Lamb waves are guided by the upper and lower boundaries of a material allowing for continuous wave propagation~\cite{Rose2014}. Unlike bulk acoustic waves Lamb waves are dispersive and multi-modal which makes their analysis complex, especially when their are other factors such as changing temperatures are involved. The lowest order modes, the fundamental antisymmetric mode $A_0$, and the fundamental symmetric mode $S_0$, are the most commonly used modes as they are relatively non-dispersive and comparatively easy to generate in comparison to the higher order modes ($A_1$, $S_1$, etc.). Lower order Lamb waves are used extensively for NDE and SHM applications and an overview of their uses for damage identification is provided by Su~\cite{Su2009a}. Lamb waves have both phase and group velocities, the phase velocity relating to the local speed with which phase of the wave changes, and a group velocity which describes the overall speed of energy transport through the propagating wave. Phase velocity is generally higher than the group velocity. Time of flight ($t_F$) measurements of Lamb waves give the group velocity, while special phase comparison techniques are needed to measure the phase velocity~\cite{Cheeke2000a}. As temperature change causes a change in wave velocity, time of flight measurement can be used to monitor a change in temperature. Group velocity can be calculated if the propagation distance is precisely known, which can be compared to theoretical values to measure temperature directly. This is the basis for the monitoring system described in this paper.
+
+The following sections describe the development of a COMSOL model based on an experimental test setup used to monitor temperature using the propagation of ultrasonic Lamb waves. A COMSOL model has been developed to simulate guided wave propagation in an aluminium plate, where the environment can easily be adjusted to evaluate the impact on wave propagation and sensor operation. A guide to building and running the model is provided, along with validation of the model against theoretical Lamb wave temperature sensitivity extracted from dispersion curves, and experimental results from the test setup that the COMSOL model replicates.
 
 \subsection{Potential applications of a ultrasonic temperature monitoring system}
 
-Ultrasound is of particular interest for SHM applications as it allows for small sensors, high precision, fast data rates, and can be utilised at frequencies much higher than environmental noise~\cite{Mitra2016}. Traditional ultrasonic NDE utilises A-scans, a measurement of signal amplitude against time, to detect cracks, defects etc. This can be extended to B~\cite{Fatemi1980}, C~\cite{Ruzek2006,Imielinska2004}, or phased-array~\cite{Komura2001} scans to build an image of damage in an area by moving the transducers around and carrying out multiple measurements. 
-
-Guided waves can travel large distances with limited attenuation using constructive interference with surfaces/boundaries, which is already utilised for pipe~\cite{Zaghari2013} and rail inspection methods~\cite{Shi2019}. Guided waves have been proposed as a method of defect detection for aircraft~\cite{Wang2019}, installing transducers in large arrays to allow for guided wave tomography.
-
-Despite the numerous uses of guided waves they have not yet been utilised for temperature monitoring applications. Sensors can be placed away from harsh environments, and the operation of the monitoring system will not impact upon the operation of the device/component itself. Working at high frequencies can allow for fast response times and resolutions/accuracy comparable with traditional temperature sensors. 
-
 An example of a potential application for this technology is nozzle guide vanes, which are static components located in the turbine section of jet engines that are operated at extremely high temperatures. The monitoring of these components is challenging because of their location, and the extreme temperatures and gas pressures that they are exposed to. There are a number of well established offline monitoring methods (thermal paints and thermal history sensors) that record the peak temperature of exposure during an operational cycle of a turbine, but considerably less well established methods for online monitoring during normal operation (thin film thermocouples, thermographic phosphors, and pyrometers). The offline methods are used in the design stage to verify analytical models, locating areas of the component with high temperature gradients, and ensuring that the component does not exceed temperature limits. Online methods can provide considerably more data during start-up and shut-down of the engine, as well as recording any overshoot events. Online methods can be used for health monitoring and data can be fed into active control systems. A comprehensive review of both offline and online monitoring methods, and an introduction to ultrasonic based temperature monitoring is provided by Yule \textit{et al.}~\cite{Yule2021}. 
 
-The basis of developing a temperature monitoring system using ultrasonic guided waves relies on temperature having an effect on wave propagation. Any change in material properties within the propagation medium will have an effect on wave propagation. A change in temperature causes a change in Young's modulus, Poisson's ratio, and density. Young's modulus has the largest effect on wave propagation, reducing with increasing temperature, which causes a reduction in wave velocity. Density also decreases with increasing temperature, manifesting as thermal expansion, which has a relatively small effect on wave velocity. Poisson's ratio changes can have a large impact on wave propagation, but generally only occur over large temperature ranges~\cite{Abbas2020a}.
-
-When working with thin plate-like structures the propagation of Rayleigh waves (otherwise known as ``Surface Acoustic Waves'' (SAWs)) can be excited at high frequencies (at wavelengths much smaller than material thickness) and are confined to the surface of a material, while Lamb waves (otherwise known as ``Guided Waves'') will propagate if excited at frequencies with wavelengths in the order of material thickness, as they interact with both the top and bottom boundaries of a material.
-
-Although Rayleigh waves can be used for temperature monitoring applications they produce large surface motions that are highly sensitive to any discontinuities or defects and are highly affected by surface coatings~\cite{Dransfeld1970}. Lamb waves are guided by the upper and lower boundaries of a material allowing for continuous wave propagation~\cite{Rose2014}. Unlike bulk acoustic waves Lamb waves are dispersive and multi-modal which makes their analysis complex, especially when their are other factors such as changing temperatures are involved. The lowest order modes, the fundamental antisymmetric mode $A_0$, and the fundamental symmetric mode $S_0$, are the most commonly used modes as they are relatively non-dispersive and comparatively easy to generate in comparison to the higher order modes ($A_1$, $S_1$, etc.). Lower order Lamb waves are used extensively for NDE and SHM applications and an overview of their uses for damage identification is provided by Su~\cite{Su2009a}. Lamb waves have both phase and group velocities, the phase velocity relating to the local speed with which phase of the wave changes, and a group velocity which describes the overall speed of energy transport through the propagating wave. Phase velocity is generally higher than the group velocity. Time of flight ($t_F$) measurements of Lamb waves give the group velocity, while special phase comparison techniques are needed to measure the phase velocity~\cite{Cheeke2000a}. 
-
-As temperature changes cause a change in wave velocity, time of flight measurement can be used to monitor a change in temperature. Group velocity can be calculated if the propagation distance is precisely known. This is the basis for the monitoring system described in this paper.
+The technique could also be applied to any structure where ultrasonic waves will propagate. Batteries that are made up of a number of cells could be monitored using this method to catch a failing cell before it becomes dangerous. PCBs can contain many components that reach high temperatures, an ultrasonic temperature monitoring method could reduce the number of sensors required to sample the board, and reduce the impact of the sensors on operation. The system could be used in combination with baseline comparisons and machine learning techniques to analyse complex wave packets and detect changes in the response due to temperature.
 
 \section{Lamb wave mode targeting}
 
-The dispersive multi-modal nature of Lamb waves means that careful selection of excitation frequency is required to target wave modes that can be more easily analysed. The choice of frequency/mode also determines the temperature sensitivity. The generation of dispersion curves based on material properties aides in this process, and they can be used to validate the results of simulated or experimental measurements. 
-
-The COMSOL model described in the next section is based on the experimental setup described in Section~\ref{experiments}. The experimental setup has been used to analyse the effect of temperature on wave propagation in an Aluminium plate. 
-
-The $S_0$ Lamb wave mode has been targeted at a frequency-thickness product of 1 MHz-mm (in a 1 mm plate). Theoretical dispersion curves calculated from the material properties of Aluminium have been produced using \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}. The velocities extracted from dispersion curves can be seen plotted against experimental and simulated results in Figure~\ref{fig:s0result}.
+The dispersive multi-modal nature of Lamb waves means that careful selection of excitation frequency is required to target wave modes that can be more easily analysed. The choice of frequency/mode also determines the temperature sensitivity. The generation of dispersion curves based on material properties aides in this process, and they can be used to validate the results of simulated or experimental measurements. The $S_0$ Lamb wave mode has been targeted at a frequency-thickness product of 1 MHz-mm (in a 1 mm plate). Theoretical dispersion curves calculated from the material properties of Aluminium have been produced using \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}. The velocities extracted from dispersion curves can be seen plotted against experimental and simulated results in Figure~\ref{fig:s0result}.
 
 \begin{figure}[!htbp]
     \centering
@@ -178,7 +166,6 @@ Using wedge transducers allows the targeting of single Lamb wave modes with care
 \text{Angle}\ \theta = \text{Sin}^{- 1} \left( \frac{\text{Longitudinal\ wedge\ velocity}}{\text{Lamb\ wave\ phase\ velocity}} \right)
 \end{equation} 
 %
-
 The wedge angle required to excite the $S_0$ mode is:
 %
 \begin{equation} 
@@ -188,6 +175,8 @@ The wedge angle required to excite the $S_0$ mode is:
 The $A_0$ mode cannot be excited using this method as the phase velocity at this frequency (2312 m s$^{-1}$) is slower than the longitudinal velocity of the wedge. If the $A_0$ mode is present in the signal it will not affect measurement of the $S_0$ mode as it’s group velocity is significantly different than that of the $S_0$ mode, which will cause a distinct second wave packet. 
 
 It should be made clear, however, that the use of wedge transducers is unlikely to be the finalised transducer configuration for a permanently installed temperature monitoring system, as they rely on liquid couplants and acrylic wedges that would melt at relatively low temperatures. The use of wedges at this stage are useful for simplifying the signal processing techniques required, and targeting specific wave modes of interest.
+
+The COMSOL model described in the next section is based on the experimental setup described in Section~\ref{experiments}. The experimental setup has been used to analyse the effect of temperature on wave propagation in an Aluminium plate. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{COMSOL simulation methods}
@@ -217,13 +206,7 @@ The model consists of two variable angle wedges (PMMA), which are based on the g
     \end{tabulary} 
     \caption{COMSOL material properties}\label{table:matprop}
 \end{table}
-%
-%\begin{equation}\label{eqn:comsolexcitation}
-   % 10 \times \sin{(2\pi f_{0}\text{t}) \times \left( \text{t} < \left( \frac{\text{np}}{f_{0}} \right) \right)}
-%\end{equation}
-% 
-%Where ``np'' is the number of cycles in the pulse (10) and $f_0$ is the excitation frequency (1~MHz). The function is set to ``V'' as this will be applied to a voltage terminal of the simple piezoelectric transducer.
-%
+
 The change in Young's Modulus with temperature is included in the material properties for both the wedges (Equation~\ref{eqn:E PMMA})~\cite{Sahputra2018} and the aluminium (Equation~\ref{eqn:E Alu})~\cite{Hopkins2012} using piecewise functions.
 %
 \begin{equation}
@@ -316,7 +299,7 @@ Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable
     \caption{Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.}\label{fig:testdiagramw2w}
 \end{figure}
 
-A hot plate is used to raise the temperature of the aluminium plate to the desired temperature. The temperature of the aluminium plate is monitored using a thermocouple placed in the centre of the plate at the hottest point. The total $t_F$ is measured until it stabilises using the test setup shown in Figure~\ref{fig:testdiagramtotal}. The temperature of the entire system must be allowed to stabilise before taking the measurement to ensure that the temperature of the wedge is the same as the plate. Total $t_F$ is now measured for the set temperature. Multiple measurements are taken after adjusting both wedge positions. The wedges are removed from the surface and placed together to measure the wedge-to-wedge $t_F$ as shown in Figure~\ref{fig:testdiagramw2w}. Multiple measurements are taken after adjusting wedge-to-wedge position. The $t_F$ measurement process is repeated after allowing the total $t_F$ to re-stabilise. Velocity is calculated using Equation~\ref{velocitycalcfull}. A mean average is calculated from the results of the repeated total $t_F$ measurements, and velocity is calculated for every wedge-to-wedge result. An average velocity is calculated along with standard deviation. 
+The hot plate is used to raise the temperature of the aluminium plate to the desired temperature. The temperature of the aluminium plate is monitored using a thermocouple placed in the centre of the plate at the hottest point. The total $t_F$ is measured until it stabilises using the test setup shown in Figure~\ref{fig:testdiagramtotal}. The temperature of the entire system must be allowed to stabilise before taking the measurement to ensure that the temperature of the wedge is the same as the plate. Total $t_F$ is now measured for the set temperature. Multiple measurements are taken after adjusting both wedge positions. The wedges are removed from the surface and placed together to measure the wedge-to-wedge $t_F$ as shown in Figure~\ref{fig:testdiagramw2w}. Multiple measurements are taken after adjusting wedge-to-wedge position. The $t_F$ measurement process is repeated after allowing the total $t_F$ to re-stabilise. Velocity is calculated using Equation~\ref{velocitycalcfull}. A mean average is calculated from the results of the repeated total $t_F$ measurements, and velocity is calculated for every wedge-to-wedge result. An average velocity is calculated along with standard deviation. 
 
 The temperature gradient across the plate has been measured by placing four equally spaced thermocouples along the transmission path, from the centre of the plate to the furthest edge of a wedge transducer in 3 cm increments. The wedges are removed from the plate to place the thermocouples, and the temperature of the hot plate is raised to match the temperature recorded by the thermocouple placed in the centre of the plate during measurement of total $t_F$. Measurements are repeated after moving the thermocouples to the other half of the transmission path. A mean average temperature has been calculated for the total transmission path at each hot plate temperature setting. 
 
@@ -362,7 +345,7 @@ Where the $d$ wedge foot offset is an unknown distance from the front edge of th
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 
-Figure~\ref{fig:s0result} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing theoretical temperature sensitivity extracted from dispersion curves, experimental measurement data, and COMSOL simulations of the experimental setup. The results from the COMSOL model are in good agreement with those taken experimentally, which also match up well to the theoretical temperature sensitivity of Aluminium extracted from dispersion curves. The experimental result is within 4.89 $\pm$ 2.27 m s$^{-1}$ or 0.05\% of the theoretical velocity on average. The COMSOL results are within 3.25 m s$^{-1}$ or 0.02\% of the theoretical result on average. This shows the validity of the COMSOL model, which can now be adapted for further research. Wedge angle and plate thickness can be adjusted to target different Lamb wave modes in different areas of the frequency-thickness spectrum. Plate material can be changed to analyse wave propagation in different materials. 
+Figure~\ref{fig:s0result} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing theoretical temperature sensitivity extracted from dispersion curves, experimental measurement data, and COMSOL simulations of the experimental setup. The results from the COMSOL model are in good agreement with those taken experimentally, which also match up well to the theoretical temperature sensitivity of Aluminium extracted from dispersion curves. The experimental result is within 4.89 $\pm$ 2.27 m s$^{-1}$ or 0.05\% of the theoretical velocity on average. The COMSOL results are within 3.25 m s$^{-1}$ or 0.02\% of the theoretical result on average. This shows the validity of the COMSOL model, which can now be adapted for further research. Wedge angle and plate thickness can be adjusted to target different Lamb wave modes in different areas of the frequency-thickness spectrum. The plate material can be changed to analyse wave propagation in different materials. 
 
 \begin{figure}[h]
     \centering
@@ -370,7 +353,7 @@ Figure~\ref{fig:s0result} shows the change in velocity with temperature for the 
     \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between theoretical, experimental, and simulated results.}\label{fig:s0result}
 \end{figure}
 
-The Lamb wave based monitoring system described in this paper is considered as a new method of online monitoring that can provide fast response times and a high level of accuracy without affecting component or engine operation. In order to apply this technology to nozzle guide vanes a number of challenges need to be addressed. The model developed in this study can be used to analyse the effect of curved surfaces, surface coatings, and cooling holes, on wave propagation. The reflections produced by cooling holes may enable temperature to be monitored at a number of different locations across the surface of the vane, which is highly advantageous for identifying temperature gradients and hotspots. Different Lamb wave modes can be targeted to determine the most suitable area of the frequency-thickness spectrum for temperature monitoring applications. 
+The Lamb wave based monitoring system described in this paper is considered as a new method of online monitoring that can provide fast response times and a high level of accuracy without affecting the operation of the component. In order to apply this technology to nozzle guide vanes a number of challenges need to be addressed. The model developed in this study can be used to analyse the effect of curved surfaces, surface coatings, and cooling holes, on wave propagation. The reflections produced by cooling holes may enable temperature to be monitored at a number of different locations across the surface of the vane, which is highly advantageous for identifying temperature gradients and hotspots. Different Lamb wave modes can be targeted to determine the most suitable area of the frequency-thickness spectrum for temperature monitoring applications. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{6pt} 
@@ -407,39 +390,41 @@ The Lamb wave based monitoring system described in this paper is considered as a
 
 \noindent 
 \begin{tabular}{@{}ll}
-MDPI & Multidisciplinary Digital Publishing Institute\\
-DOAJ & Directory of open access journals\\
-TLA & Three letter acronym\\
-LD & Linear dichroism
+NDE & Non-destructive evaluation\\
+SHM & Structural health monitoring\\
+NGV & Nozzle guide vane\\
+ToF & Time of flight\\
+CFL & Courant Friedrichs Lewy number\\
+SAW & Surface acoustic wave
 \end{tabular}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Optional
-\appendixtitles{no} % Leave argument "no" if all appendix headings stay EMPTY (then no dot is printed after "Appendix A"). If the appendix sections contain a heading then change the argument to "yes".
-\appendixstart
-\appendix
-\section{}
-\subsection{}
-The appendix is an optional section that can contain details and data supplemental to the main text---for example, explanations of experimental details that would disrupt the flow of the main text but nonetheless remain crucial to understanding and reproducing the research shown; figures of replicates for experiments of which representative data are shown in the main text can be added here if brief, or as Supplementary Data. Mathematical proofs of results not central to the paper can be added as an appendix.
-\cite{Alleyne1992}
-\begin{specialtable}[H] 
-%\tablesize{\scriptsize}
-\caption{This is a table caption. Tables should be placed in the main text near to the first time they are~cited.}
-%\tablesize{} % You can specify the fontsize here, e.g., \tablesize{\footnotesize}. If commented out \small will be used.
-\begin{tabular}{ccc}
-\toprule
-\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}\\
-\midrule
-Entry 1		& Data			& Data\\
-Entry 2		& Data			& Data\\
-\bottomrule
-\end{tabular}
-\end{specialtable}
+% \appendixtitles{no} % Leave argument "no" if all appendix headings stay EMPTY (then no dot is printed after "Appendix A"). If the appendix sections contain a heading then change the argument to "yes".
+% \appendixstart
+% \appendix
+% \section{}
+% \subsection{}
+% The appendix is an optional section that can contain details and data supplemental to the main text---for example, explanations of experimental details that would disrupt the flow of the main text but nonetheless remain crucial to understanding and reproducing the research shown; figures of replicates for experiments of which representative data are shown in the main text can be added here if brief, or as Supplementary Data. Mathematical proofs of results not central to the paper can be added as an appendix.
+% \cite{Alleyne1992}
+% \begin{specialtable}[H] 
+% %\tablesize{\scriptsize}
+% \caption{This is a table caption. Tables should be placed in the main text near to the first time they are~cited.}
+% %\tablesize{} % You can specify the fontsize here, e.g., \tablesize{\footnotesize}. If commented out \small will be used.
+% \begin{tabular}{ccc}
+% \toprule
+% \textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}\\
+% \midrule
+% Entry 1		& Data			& Data\\
+% Entry 2		& Data			& Data\\
+% \bottomrule
+% \end{tabular}
+% \end{specialtable}
 
-\section{}
-All appendix sections must be cited in the main text. In the appendices, Figures, Tables, etc. should be labeled, starting with ``A''---e.g., Figure A1, Figure A2, etc. 
-fhfg
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{}
+% All appendix sections must be cited in the main text. In the appendices, Figures, Tables, etc. should be labeled, starting with ``A''---e.g., Figure A1, Figure A2, etc. 
+% fhfg
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{paracol}
 \reftitle{References}
 
