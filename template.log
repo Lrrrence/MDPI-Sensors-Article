@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.9.3)  10 SEP 2021 13:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.9.3)  14 SEP 2021 13:00
 entering extended mode
 **c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex
 (c:/Users/yulel/Documents/LaTeX/MDPI-Sensors-Article/template.tex
@@ -1263,7 +1263,7 @@ Package epstopdf Info: Source file: <./figures/grouptempshiftalu.eps>
 (epstopdf)                    date: 2021-09-02 12:04:51
 (epstopdf)                    size: 35652 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/grouptempshiftalu-eps-converted-to.pdf ./figures/grouptempshiftalu.eps>
-(epstopdf)             \includegraphics on input line 159.
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1271,22 +1271,22 @@ pdfTeX warning: pdflatex (file ./figures/grouptempshiftalu-eps-converted-to.pdf)
 <./figures/grouptempshiftalu-eps-converted-to.pdf, id=32, 381.425pt x 301.125pt>
 File: ./figures/grouptempshiftalu-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/grouptempshiftalu-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/grouptempshiftalu-eps-converted-to.pdf  used on input line 159.
+Package pdftex.def Info: ./figures/grouptempshiftalu-eps-converted-to.pdf  used on input line 165.
 (pdftex.def)             Requested size: 315.14578pt x 248.80795pt.
 <./figures/comsoldiagram.png, id=36, 1556.9367pt x 496.9767pt>
 File: ./figures/comsoldiagram.png Graphic file (type png)
 <use ./figures/comsoldiagram.png>
-Package pdftex.def Info: ./figures/comsoldiagram.png  used on input line 188.
+Package pdftex.def Info: ./figures/comsoldiagram.png  used on input line 194.
 (pdftex.def)             Requested size: 315.14578pt x 100.59172pt.
 <./figures/comsoltemp100c.png, id=50, 1340.00626pt x 371.88937pt>
 File: ./figures/comsoltemp100c.png Graphic file (type png)
 <use ./figures/comsoltemp100c.png>
-Package pdftex.def Info: ./figures/comsoltemp100c.png  used on input line 234.
+Package pdftex.def Info: ./figures/comsoltemp100c.png  used on input line 240.
 (pdftex.def)             Requested size: 315.14578pt x 87.45642pt.
 <./figures/simmodes.png, id=58, 1160.83687pt x 324.46219pt>
 File: ./figures/simmodes.png Graphic file (type png)
 <use ./figures/simmodes.png>
-Package pdftex.def Info: ./figures/simmodes.png  used on input line 257.
+Package pdftex.def Info: ./figures/simmodes.png  used on input line 263.
 (pdftex.def)             Requested size: 315.14578pt x 88.08618pt.
 Package epstopdf Info: Source file: <./figures/simpulse20csensors.eps>
 (epstopdf)                    date: 2021-09-01 16:13:35
@@ -1295,7 +1295,7 @@ Package epstopdf Info: Source file: <./figures/simpulse20csensors.eps>
 (epstopdf)                    date: 2021-09-01 16:13:48
 (epstopdf)                    size: 184529 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/simpulse20csensors-eps-converted-to.pdf ./figures/simpulse20csensors.eps>
-(epstopdf)             \includegraphics on input line 263.
+(epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1303,7 +1303,7 @@ pdfTeX warning: pdflatex (file ./figures/simpulse20csensors-eps-converted-to.pdf
 <./figures/simpulse20csensors-eps-converted-to.pdf, id=59, 1104.125pt x 695.59875pt>
 File: ./figures/simpulse20csensors-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/simpulse20csensors-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/simpulse20csensors-eps-converted-to.pdf  used on input line 263.
+Package pdftex.def Info: ./figures/simpulse20csensors-eps-converted-to.pdf  used on input line 269.
 (pdftex.def)             Requested size: 315.14578pt x 198.54489pt.
 Package epstopdf Info: Source file: <./figures/testdiagramsimple.eps>
 (epstopdf)                    date: 2021-07-15 15:32:04
@@ -1312,7 +1312,7 @@ Package epstopdf Info: Source file: <./figures/testdiagramsimple.eps>
 (epstopdf)                    date: 2021-08-30 13:52:07
 (epstopdf)                    size: 29627 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/testdiagramsimple-eps-converted-to.pdf ./figures/testdiagramsimple.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1320,7 +1320,7 @@ pdfTeX warning: pdflatex (file ./figures/testdiagramsimple-eps-converted-to.pdf)
 <./figures/testdiagramsimple-eps-converted-to.pdf, id=61, 1602.98875pt x 523.9575pt>
 File: ./figures/testdiagramsimple-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/testdiagramsimple-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/testdiagramsimple-eps-converted-to.pdf  used on input line 292.
+Package pdftex.def Info: ./figures/testdiagramsimple-eps-converted-to.pdf  used on input line 298.
 (pdftex.def)             Requested size: 315.14578pt x 103.00676pt.
 Package epstopdf Info: Source file: <./figures/w2wdiagram.eps>
 (epstopdf)                    date: 2021-07-15 15:57:15
@@ -1329,7 +1329,7 @@ Package epstopdf Info: Source file: <./figures/w2wdiagram.eps>
 (epstopdf)                    date: 2021-08-30 13:52:08
 (epstopdf)                    size: 28946 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/w2wdiagram-eps-converted-to.pdf ./figures/w2wdiagram.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1337,12 +1337,12 @@ pdfTeX warning: pdflatex (file ./figures/w2wdiagram-eps-converted-to.pdf): PDF i
 <./figures/w2wdiagram-eps-converted-to.pdf, id=62, 1185.42876pt x 412.54124pt>
 File: ./figures/w2wdiagram-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/w2wdiagram-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/w2wdiagram-eps-converted-to.pdf  used on input line 298.
+Package pdftex.def Info: ./figures/w2wdiagram-eps-converted-to.pdf  used on input line 304.
 (pdftex.def)             Requested size: 262.61882pt x 91.39513pt.
 <./figures/hjkhh7UmEx.png, id=66, 1201.48875pt x 716.6775pt>
 File: ./figures/hjkhh7UmEx.png Graphic file (type png)
 <use ./figures/hjkhh7UmEx.png>
-Package pdftex.def Info: ./figures/hjkhh7UmEx.png  used on input line 308.
+Package pdftex.def Info: ./figures/hjkhh7UmEx.png  used on input line 314.
 (pdftex.def)             Requested size: 315.14578pt x 187.98303pt.
 Package epstopdf Info: Source file: <./figures/s0andcomsolresult.eps>
 (epstopdf)                    date: 2021-08-31 14:28:06
@@ -1351,7 +1351,7 @@ Package epstopdf Info: Source file: <./figures/s0andcomsolresult.eps>
 (epstopdf)                    date: 2021-08-31 14:33:37
 (epstopdf)                    size: 26866 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/s0andcomsolresult-eps-converted-to.pdf ./figures/s0andcomsolresult.eps>
-(epstopdf)             \includegraphics on input line 352.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1359,10 +1359,10 @@ pdfTeX warning: pdflatex (file ./figures/s0andcomsolresult-eps-converted-to.pdf)
 <./figures/s0andcomsolresult-eps-converted-to.pdf, id=73, 378.41376pt x 290.08376pt>
 File: ./figures/s0andcomsolresult-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/s0andcomsolresult-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/s0andcomsolresult-eps-converted-to.pdf  used on input line 352.
+Package pdftex.def Info: ./figures/s0andcomsolresult-eps-converted-to.pdf  used on input line 358.
 (pdftex.def)             Requested size: 315.14578pt x 241.5839pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 
  []
 
@@ -1474,17 +1474,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12] (template.aux) ) 
 Here is how much of TeX's memory you used:
- 31881 strings out of 479173
- 588913 string characters out of 2854168
- 1026270 words of memory out of 3000000
- 48338 multiletter control sequences out of 15000+600000
- 482539 words of font info for 434 fonts, out of 8000000 for 9000
+ 31909 strings out of 479173
+ 589302 string characters out of 2854168
+ 1030616 words of memory out of 3000000
+ 48353 multiletter control sequences out of 15000+600000
+ 482853 words of font info for 438 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,13n,124p,2402b,1552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 123i,13n,124p,1833b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk>{C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on template.pdf (12 pages, 5033633 bytes).
+Output written on template.pdf (12 pages, 5040065 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 129164 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 129188 words of extra memory for PDF output out of 154059 (max. 10000000)
 

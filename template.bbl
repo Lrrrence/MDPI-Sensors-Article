@@ -42,6 +42,20 @@ Komura, I.; Hirasawa, T.; Nagai, S.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/s11003-011-9382-9}{\detokenize{10.1007/s11003-011-9382-9}}}.
 
+\bibitem[Dransfeld and Salzmann(1970)]{Dransfeld1970}
+Dransfeld, K.; Salzmann, E.
+\newblock {\em {Excitation, Detection, and Attenuation of High-Frequency
+  Elastic Surface Waves}}; Vol.~7, ACADEMIC PRESS, INC.,  1970; pp. 219--272.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/B978-0-12-395667-5.50010-6}{\detokenize{10.1016/B978-0-12-395667-5.50010-6}}}.
+
+\bibitem[Rose(2014)]{Rose2014}
+Rose, J.L.
+\newblock {\em {Ultrasonic guided waves in solid media}}; Vol. 9781107048,
+  Cambridge University Press,  2014; pp. 1--512.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1017/CBO9781107273610}{\detokenize{10.1017/CBO9781107273610}}}.
+
 \bibitem[Zaghari \em{et~al.}(2013)Zaghari, Humphrey, and
   Moshrefi-Torbati]{Zaghari2013}
 Zaghari, B.; Humphrey, V.; Moshrefi-Torbati, M.
@@ -66,28 +80,6 @@ Wang, Y.; Qiu, L.; Luo, Y.; Ding, R.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1475921719850641}{\detokenize{10.1177/1475921719850641}}}.
 
-\bibitem[Abbas \em{et~al.}(2020)Abbas, Li, Qiu, Zhu, and Tu]{Abbas2020a}
-Abbas, S.; Li, F.; Qiu, J.; Zhu, Y.; Tu, X.
-\newblock {Optimization of ultrasonic guided wave inspection in structural
-  health monitoring based on thermal sensitivity evaluation}.
-\newblock {\em J. Low Freq. Noise Vib. Act. Control} {\bf 2020}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1461348419886189}{\detokenize{10.1177/1461348419886189}}}.
-
-\bibitem[Dransfeld and Salzmann(1970)]{Dransfeld1970}
-Dransfeld, K.; Salzmann, E.
-\newblock {\em {Excitation, Detection, and Attenuation of High-Frequency
-  Elastic Surface Waves}}; Vol.~7, ACADEMIC PRESS, INC.,  1970; pp. 219--272.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/B978-0-12-395667-5.50010-6}{\detokenize{10.1016/B978-0-12-395667-5.50010-6}}}.
-
-\bibitem[Rose(2014)]{Rose2014}
-Rose, J.L.
-\newblock {\em {Ultrasonic guided waves in solid media}}; Vol. 9781107048,
-  Cambridge University Press,  2014; pp. 1--512.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1017/CBO9781107273610}{\detokenize{10.1017/CBO9781107273610}}}.
-
 \bibitem[Su and Ye(2009)]{Su2009a}
 Su, Z.; Ye, L.
 \newblock {\em {Identification of damage using Lamb waves: From fundamentals to
@@ -99,6 +91,14 @@ Su, Z.; Ye, L.
 Cheeke, J.D.N.
 \newblock {\em {Fundamentals and applications of ultrasonic waves}}, 1 ed.; CRC
   Press,  2000; p.~3.
+
+\bibitem[Abbas \em{et~al.}(2020)Abbas, Li, Qiu, Zhu, and Tu]{Abbas2020a}
+Abbas, S.; Li, F.; Qiu, J.; Zhu, Y.; Tu, X.
+\newblock {Optimization of ultrasonic guided wave inspection in structural
+  health monitoring based on thermal sensitivity evaluation}.
+\newblock {\em J. Low Freq. Noise Vib. Act. Control} {\bf 2020}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1461348419886189}{\detokenize{10.1177/1461348419886189}}}.
 
 \bibitem[Yule \em{et~al.}(2021)Yule, Zaghari, Harris, and Hill]{Yule2021}
 Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
@@ -185,5 +185,38 @@ Croxford, A.J.; Wilcox, P.D.; Drinkwater, B.W.; Konstantinidis, G.
   463},~2961--2981.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rspa.2007.0048}{\detokenize{10.1098/rspa.2007.0048}}}.
+
+\bibitem[Mei \em{et~al.}(2019)Mei, Haider, Joseph, Migot, and
+  Giurgiutiu]{Mei2019}
+Mei, H.; Haider, M.F.; Joseph, R.; Migot, A.; Giurgiutiu, V.
+\newblock {Recent advances in piezoelectric wafer active sensors for structural
+  health monitoring applications}.
+\newblock {\em Sensors (Switzerland)} {\bf 2019}, {\em 19}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/s19020383}{\detokenize{10.3390/s19020383}}}.
+
+\bibitem[Giurgiutiu(2003)]{Giurgiutiu2003a}
+Giurgiutiu, V.
+\newblock {Lamb wave generation with piezoelectric wafer active sensors for
+  structural health monitoring}.
+\newblock {\em Smart Struct. Mater. 2003 Smart Struct. Integr. Syst.} {\bf
+  2003}, {\em 5056},~111.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1117/12.483492}{\detokenize{10.1117/12.483492}}}.
+
+\bibitem[Ren and Lissenden(2017)]{Ren2017}
+Ren, B.; Lissenden, C.J.
+\newblock {A fully coupled model for actuation of higher order modes of Lamb
+  waves}.
+\newblock {\em AIP Conf. Proc.} {\bf 2017}, {\em 1806}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.4974577}{\detokenize{10.1063/1.4974577}}}.
+
+\bibitem[Grimberg \em{et~al.}(2010)Grimberg, Savin, Steigmann, Stanciu, and
+  Grum]{Grimberg2010}
+Grimberg, R.; Savin, A.; Steigmann, R.; Stanciu, M.D.; Grum, J.
+\newblock {Determination of elastic properties of CFRP using lamb waves
+  resonant spectroscopy}.
+\newblock {\em NDT Aerosp.} {\bf 2010}, {\em 1},~5--12.
 
 \end{thebibliography}
