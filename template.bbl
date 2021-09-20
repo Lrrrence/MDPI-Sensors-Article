@@ -114,6 +114,39 @@ Huber, A.
 \newblock url =
   {https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874{\_}read-61142/{\#}/gallery/33485}.
 
+\bibitem[Mei \em{et~al.}(2019)Mei, Haider, Joseph, Migot, and
+  Giurgiutiu]{Mei2019}
+Mei, H.; Haider, M.F.; Joseph, R.; Migot, A.; Giurgiutiu, V.
+\newblock {Recent advances in piezoelectric wafer active sensors for structural
+  health monitoring applications}.
+\newblock {\em Sensors (Switzerland)} {\bf 2019}, {\em 19}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/s19020383}{\detokenize{10.3390/s19020383}}}.
+
+\bibitem[Giurgiutiu(2003)]{Giurgiutiu2003a}
+Giurgiutiu, V.
+\newblock {Lamb wave generation with piezoelectric wafer active sensors for
+  structural health monitoring}.
+\newblock {\em Smart Struct. Mater. 2003 Smart Struct. Integr. Syst.} {\bf
+  2003}, {\em 5056},~111.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1117/12.483492}{\detokenize{10.1117/12.483492}}}.
+
+\bibitem[Ren and Lissenden(2017)]{Ren2017}
+Ren, B.; Lissenden, C.J.
+\newblock {A fully coupled model for actuation of higher order modes of Lamb
+  waves}.
+\newblock {\em AIP Conf. Proc.} {\bf 2017}, {\em 1806}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.4974577}{\detokenize{10.1063/1.4974577}}}.
+
+\bibitem[Grimberg \em{et~al.}(2010)Grimberg, Savin, Steigmann, Stanciu, and
+  Grum]{Grimberg2010}
+Grimberg, R.; Savin, A.; Steigmann, R.; Stanciu, M.D.; Grum, J.
+\newblock {Determination of elastic properties of CFRP using lamb waves
+  resonant spectroscopy}.
+\newblock {\em NDT Aerosp.} {\bf 2010}, {\em 1},~5--12.
+
 \bibitem[Nikolaevtsev \em{et~al.}(2016)Nikolaevtsev, Suchkov, Selifonov,
   Suchkov, Yankin, and Suchkova]{Nikolaevtsev2016a}
 Nikolaevtsev, V.A.; Suchkov, S.G.; Selifonov, A.V.; Suchkov, D.D.; Yankin,
@@ -185,38 +218,5 @@ Croxford, A.J.; Wilcox, P.D.; Drinkwater, B.W.; Konstantinidis, G.
   463},~2961--2981.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rspa.2007.0048}{\detokenize{10.1098/rspa.2007.0048}}}.
-
-\bibitem[Mei \em{et~al.}(2019)Mei, Haider, Joseph, Migot, and
-  Giurgiutiu]{Mei2019}
-Mei, H.; Haider, M.F.; Joseph, R.; Migot, A.; Giurgiutiu, V.
-\newblock {Recent advances in piezoelectric wafer active sensors for structural
-  health monitoring applications}.
-\newblock {\em Sensors (Switzerland)} {\bf 2019}, {\em 19}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/s19020383}{\detokenize{10.3390/s19020383}}}.
-
-\bibitem[Giurgiutiu(2003)]{Giurgiutiu2003a}
-Giurgiutiu, V.
-\newblock {Lamb wave generation with piezoelectric wafer active sensors for
-  structural health monitoring}.
-\newblock {\em Smart Struct. Mater. 2003 Smart Struct. Integr. Syst.} {\bf
-  2003}, {\em 5056},~111.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1117/12.483492}{\detokenize{10.1117/12.483492}}}.
-
-\bibitem[Ren and Lissenden(2017)]{Ren2017}
-Ren, B.; Lissenden, C.J.
-\newblock {A fully coupled model for actuation of higher order modes of Lamb
-  waves}.
-\newblock {\em AIP Conf. Proc.} {\bf 2017}, {\em 1806}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.4974577}{\detokenize{10.1063/1.4974577}}}.
-
-\bibitem[Grimberg \em{et~al.}(2010)Grimberg, Savin, Steigmann, Stanciu, and
-  Grum]{Grimberg2010}
-Grimberg, R.; Savin, A.; Steigmann, R.; Stanciu, M.D.; Grum, J.
-\newblock {Determination of elastic properties of CFRP using lamb waves
-  resonant spectroscopy}.
-\newblock {\em NDT Aerosp.} {\bf 2010}, {\em 1},~5--12.
 
 \end{thebibliography}
