@@ -1,5 +1,99 @@
 \begin{thebibliography}{999}
 
+\bibitem[{Ferri Aliabadi} and Khodaei(2017)]{FerriAliabadi2017}
+{Ferri Aliabadi}, M.H.; Khodaei, Z.S.
+\newblock {Structural health monitoring for advanced composite structures}.
+\newblock {\em Struct. Heal. Monit. Adv. Compos. Struct.} {\bf 2017}, pp.
+  1--274.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1142/q0114}{\detokenize{10.1142/q0114}}}.
+
+\bibitem[Farrar and Worden(2007)]{Farrar2007}
+Farrar, C.R.; Worden, K.
+\newblock {An introduction to structural health monitoring}.
+\newblock {\em Philos. Trans. R. Soc. A Math. Phys. Eng. Sci.} {\bf 2007}, {\em
+  365},~303--315.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rsta.2006.1928}{\detokenize{10.1098/rsta.2006.1928}}}.
+
+\bibitem[Ono(2019)]{Ono2019}
+Ono, K.
+\newblock {Structural health monitoring of large structures using acoustic
+  emission-case histories}.
+\newblock {\em Appl. Sci.} {\bf 2019}, {\em 9},~12--14.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/app9214602}{\detokenize{10.3390/app9214602}}}.
+
+\bibitem[Goossens \em{et~al.}(2019)Goossens, {De Pauw}, Geernaert, Salmanpour,
+  {Sharif Khodaei}, Karachalios, Saenz-Castillo, Thienpont, and
+  Berghmans]{Goossens2019}
+Goossens, S.; {De Pauw}, B.; Geernaert, T.; Salmanpour, M.S.; {Sharif Khodaei},
+  Z.; Karachalios, E.; Saenz-Castillo, D.; Thienpont, H.; Berghmans, F.
+\newblock {Aerospace-grade surface mounted optical fibre strain sensor for
+  structural health monitoring on composite structures evaluated against
+  in-flight conditions}.
+\newblock {\em Smart Mater. Struct.} {\bf 2019}, {\em 28}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1361-665X/ab1458}{\detokenize{10.1088/1361-665X/ab1458}}}.
+
+\bibitem[Giurgiutiu(2006)]{Giurgiutiu2006a}
+Giurgiutiu, V.
+\newblock {\em {Structural health monitoring with piezoelectric wafer active
+  sensors}};  2006; pp. 94--100.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/c2013-0-00155-7}{\detokenize{10.1016/c2013-0-00155-7}}}.
+
+\bibitem[Raghavan and Cesnik(2007)]{Raghavan2007}
+Raghavan, A.; Cesnik, C.E.
+\newblock {Review of guided-wave structural health monitoring}.
+\newblock {\em Shock Vib. Dig.} {\bf 2007}, {\em 39},~91--114.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/0583102406075428}{\detokenize{10.1177/0583102406075428}}}.
+
+\bibitem[Worden and Manson(2007)]{Worden2007}
+Worden, K.; Manson, G.
+\newblock {The application of machine learning to structural health
+  monitoring}.
+\newblock {\em Philos. Trans. R. Soc. A Math. Phys. Eng. Sci.} {\bf 2007}, {\em
+  365},~515--537.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1098/rsta.2006.1938}{\detokenize{10.1098/rsta.2006.1938}}}.
+
+\bibitem[Azimi \em{et~al.}(2020)Azimi, Eslamlou, and Pekcan]{Azimi2020}
+Azimi, M.; Eslamlou, A.D.; Pekcan, G.
+\newblock {\em {Data-driven structural health monitoring and damage detection
+  through deep learning: State-ofthe- art review}}; Vol.~20,  2020.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/s20102778}{\detokenize{10.3390/s20102778}}}.
+
+\bibitem[{Tibaduiza Burgos} \em{et~al.}(2020){Tibaduiza Burgos}, {Gomez
+  Vargas}, Pedraza, Agis, and Pozo]{TibaduizaBurgos2020}
+{Tibaduiza Burgos}, D.A.; {Gomez Vargas}, R.C.; Pedraza, C.; Agis, D.; Pozo, F.
+\newblock {\em {Damage identification in structural health monitoring: A brief
+  review from its implementation to the use of data-driven applications}};
+  Vol.~20,  2020.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/s20030733}{\detokenize{10.3390/s20030733}}}.
+
+\bibitem[Zhang \em{et~al.}(2019)Zhang, Chen, and Wang]{Zhang2019}
+Zhang, X.; Chen, X.; Wang, J.
+\newblock {A number-based inventory of size-resolved black carbon particle
+  emissions by global civil aviation}.
+\newblock {\em Nat. Commun.} {\bf 2019}, {\em 10},~1--11.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1038/s41467-019-08491-9}{\detokenize{10.1038/s41467-019-08491-9}}}.
+
+\bibitem[Peral \em{et~al.}(2019)Peral, Araguas-Rodriguez, Karagiannopoulos,
+  Ya{\~{n}}ez-Gonzalez, Feist, Castillo, Pilgrim, and Skinner]{Peral2019}
+Peral, D.; Araguas-Rodriguez, S.; Karagiannopoulos, S.; Ya{\~{n}}ez-Gonzalez,
+  A.; Feist, J.P.; Castillo, D.; Pilgrim, C.; Skinner, S.
+\newblock {Reliable temperature measurement with thermal history paints: An
+  uncertainty estimation model}.
+\newblock  Proc. ASME Turbo Expo. American Society of Mechanical Engineers
+  (ASME),  2019, Vol.~6, p.~10.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1115/GT2019-92087}{\detokenize{10.1115/GT2019-92087}}}.
+
 \bibitem[Mitra and Gopalakrishnan(2016)]{Mitra2016}
 Mitra, M.; Gopalakrishnan, S.
 \newblock {Guided wave based structural health monitoring: A review}.
@@ -92,6 +186,29 @@ Cheeke, J.D.N.
 \newblock {\em {Fundamentals and applications of ultrasonic waves}}, 1 ed.; CRC
   Press,  2000; p.~3.
 
+\bibitem[Lee \em{et~al.}(1994)Lee, Khuri-Yakub, and Saraswat]{Lee1994a}
+Lee, Y.J.; Khuri-Yakub, B.T.; Saraswat, K.C.
+\newblock {Temperature measurement in rapid thermal processing using acoustic
+  techniques}.
+\newblock {\em Rev. Sci. Instrum.} {\bf 1994}, {\em 65},~974--976.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.1144929}{\detokenize{10.1063/1.1144929}}}.
+
+\bibitem[Lee and Butrus(1997)]{Lee1996}
+Lee, Y.J.; Butrus, T.
+\newblock {Temperature measurement in rapid thermal processing using the
+  acoustic temperature sensor}.
+\newblock {\em Solid State Technol.} {\bf 1997}, {\em 40},~63--74.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1557/proc-470-3}{\detokenize{10.1557/proc-470-3}}}.
+
+\bibitem[Klimek \em{et~al.}(1998)Klimek, Anthony, Abbate, and
+  Kotidis]{Klimek1998}
+Klimek, D.; Anthony, B.; Abbate, A.; Kotidis, P.
+\newblock {Laser ultrasonic instrumentation for accurate temperature
+  measurement of silicon wafers in rapid thermal processing systems}.
+\newblock {\em Mater. Res. Soc.} {\bf 1998}, {\em 525},~135--140.
+
 \bibitem[Abbas \em{et~al.}(2020)Abbas, Li, Qiu, Zhu, and Tu]{Abbas2020a}
 Abbas, S.; Li, F.; Qiu, J.; Zhu, Y.; Tu, X.
 \newblock {Optimization of ultrasonic guided wave inspection in structural
@@ -99,6 +216,13 @@ Abbas, S.; Li, F.; Qiu, J.; Zhu, Y.; Tu, X.
 \newblock {\em J. Low Freq. Noise Vib. Act. Control} {\bf 2020}.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1177/1461348419886189}{\detokenize{10.1177/1461348419886189}}}.
+
+\bibitem[Dixon and Hall(2013)]{Dixon2013}
+Dixon, S.L.; Hall, C.A.
+\newblock {\em {Fluid mechanics and thermodynamics of turbomachinery, 7th
+  edition}}; Elsevier,  2013; pp. 1--537.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/C2011-0-05059-7}{\detokenize{10.1016/C2011-0-05059-7}}}.
 
 \bibitem[Yule \em{et~al.}(2021)Yule, Zaghari, Harris, and Hill]{Yule2021}
 Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
@@ -111,8 +235,6 @@ Yule, L.; Zaghari, B.; Harris, N.; Hill, M.
 \bibitem[Huber(2020)]{Huber}
 Huber, A.
 \newblock {The Dispersion Calculator},  2020.
-\newblock url =
-  {https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874{\_}read-61142/{\#}/gallery/33485}.
 
 \bibitem[Mei \em{et~al.}(2019)Mei, Haider, Joseph, Migot, and
   Giurgiutiu]{Mei2019}
@@ -180,29 +302,22 @@ Hopkins, D.C.; Baltis, T.; Pitaress, J.M.; Hazelmyer, D.R.
 \bibitem[COMSOL(2013)]{COMSOL2013}
 COMSOL.
 \newblock {Mesh Refinement for Wave Problems},  2013.
-\newblock url =
-  {https://uk.comsol.com/blogs/mesh-refinement-for-wave-problems/}.
 
 \bibitem[COMSOL(2017)]{COMSOL2017}
 COMSOL.
 \newblock {How to Inspect Your Mesh in COMSOL Multiphysics},  2017.
-\newblock url =
-  {https://uk.comsol.com/blogs/how-to-inspect-your-mesh-in-comsol-multiphysics/}.
 
 \bibitem[COMSOL(2021{\natexlab{a}})]{COMSOL2021}
 COMSOL.
 \newblock {Resolving time dependant waves},  2021.
-\newblock url = {https://uk.comsol.com/support/knowledgebase/1118}.
 
 \bibitem[COMSOL(2021{\natexlab{b}})]{COMSOL2021a}
 COMSOL.
 \newblock {Reducing the amount of solution data stored in a model},  2021.
-\newblock url = {https://www.comsol.ch/support/knowledgebase/1255}.
 
 \bibitem[{University of Southampton}(2021)]{Southampton2021}
 {University of Southampton}.
 \newblock {IRIDIS 5},  2021.
-\newblock url = {https://www.southampton.ac.uk/isolutions/staff/iridis.page}.
 
 \bibitem[Guers(2011)]{Guers2011}
 Guers, M.J.

@@ -7,47 +7,52 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: library.bib
 Database file #2: References.bib
+Warning--empty publisher in Giurgiutiu2006a
+Warning--can't use both volume and number fields in Azimi2020
+Warning--empty publisher in Azimi2020
+Warning--can't use both volume and number fields in TibaduizaBurgos2020
+Warning--empty publisher in TibaduizaBurgos2020
 Warning--can't use both volume and number fields in Imielinska2004
 Warning--can't use both volume and number fields in Dransfeld1970
-You've used 29 entries,
+You've used 44 entries,
             2862 wiz_defined-function locations,
-            796 strings with 10269 characters,
-and the built_in function-call counts, 10293 in all, are:
-= -- 883
-> -- 539
-< -- 23
-+ -- 217
-- -- 158
-* -- 888
-:= -- 1655
-add.period$ -- 103
-call.type$ -- 29
-change.case$ -- 31
-chr.to.int$ -- 28
-cite$ -- 31
-duplicate$ -- 496
-empty$ -- 884
-format.name$ -- 195
-if$ -- 2149
+            905 strings with 13626 characters,
+and the built_in function-call counts, 16388 in all, are:
+= -- 1403
+> -- 874
+< -- 38
++ -- 345
+- -- 256
+* -- 1470
+:= -- 2606
+add.period$ -- 153
+call.type$ -- 44
+change.case$ -- 46
+chr.to.int$ -- 43
+cite$ -- 51
+duplicate$ -- 783
+empty$ -- 1394
+format.name$ -- 320
+if$ -- 3428
 int.to.chr$ -- 2
-int.to.str$ -- 29
-missing$ -- 26
-newline$ -- 163
-num.names$ -- 87
-pop$ -- 209
+int.to.str$ -- 44
+missing$ -- 45
+newline$ -- 242
+num.names$ -- 132
+pop$ -- 308
 preamble$ -- 0
-purify$ -- 29
+purify$ -- 44
 quote$ -- 0
-skip$ -- 281
+skip$ -- 445
 stack$ -- 0
-substring$ -- 356
-swap$ -- 122
-text.length$ -- 8
+substring$ -- 637
+swap$ -- 198
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 191
-warning$ -- 2
-while$ -- 87
+type$ -- 284
+warning$ -- 7
+while$ -- 143
 width$ -- 0
-write$ -- 392
-(There were 2 warnings)
+write$ -- 588
+(There were 7 warnings)
